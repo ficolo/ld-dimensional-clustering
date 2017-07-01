@@ -1,0 +1,2747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:biro="http://purl.org/spar/biro/"
+         xmlns:cito="http://purl.org/spar/cito/"
+         xmlns:co="http://purl.org/co/"
+         xmlns:datacite="http://purl.org/spar/datacite/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:deo="http://purl.org/spar/deo/"
+         xmlns:fabio="http://purl.org/spar/fabio/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:frapo="http://purl.org/cerif/frapo/"
+         xmlns:frbr="http://purl.org/vocab/frbr/core#"
+         xmlns:literal="http://www.essepuntato.it/2010/06/literalreification/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/"
+         xmlns:pro="http://purl.org/spar/pro/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:scoro="http://purl.org/spar/scoro/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:tvc="http://www.essepuntato.it/2012/04/tvc/"
+         xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:fn="http://www.w3.org/2005/xpath-functions"
+         xml:base="resource/">
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+      <frbr:realizationOf rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work"/>
+      <frbr:embodiment rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/digital-embodiment"/>
+      <fabio:hasRepresentation rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/digital-item"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Article"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/RapidCommunication"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <dcterms:language>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://purl.org/dc/terms/LinguisticSystem"/>
+            <dcterms:description rdf:datatype="http://purl.org/dc/terms/RFC5646">en</dcterms:description>
+         </rdf:Description>
+      </dcterms:language>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/PLoSONE"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/PLoSONE">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Journal"/>
+      <frbr:realizationOf>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://purl.org/spar/fabio/WorkCollection"/>
+         </rdf:Description>
+      </frbr:realizationOf>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/PLoSONE">
+      <prism:issn>1932-6203</prism:issn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/PLoSONE">
+      <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/nlmcatalog?term=1932-6203"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/PLoSONE">
+      <dcterms:publisher rdf:resource="http://www.biotea.org//journal/PLoSONE/publisher"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/PLoSONE/publisher">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/PLoSONE/publisher">
+      <foaf:name>Public Library of Science</foaf:name>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/PLoSONE/publisher">
+      <tvc:hasValueInTime>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://www.essepuntato.it/2012/04/tvc/ValueInTime"/>
+            <tvc:withinContext rdf:resource="http://www.biotea.org//journal/PLoSONE"/>
+            <tvc:withValue>
+               <rdf:Description>
+                  <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#VCard"/>
+                  <vcard:addr>
+                     <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+                        <vcard:locality>San Francisco, USA</vcard:locality>
+                     </rdf:Description>
+                  </vcard:addr>
+               </rdf:Description>
+            </tvc:withValue>
+         </rdf:Description>
+      </tvc:hasValueInTime>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <datacite:hasIdentifier>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://purl.org/spar/datacite/Identifier"/>
+            <datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/local-resource-identifier-scheme"/>
+            <literal:hasLiteralValue>PONE-D-13-21686</literal:hasLiteralValue>
+            <prov:wasAttributedTo>
+               <rdf:Description>
+                  <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+                  <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+                  <rdfs:label>PsychOpen</rdfs:label>
+               </rdf:Description>
+            </prov:wasAttributedTo>
+         </rdf:Description>
+      </datacite:hasIdentifier>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <prism:doi>10.1371/journal.pone.0095002</prism:doi>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <owl:sameAs rdf:resource="http://dx.doi.org/10.1371/journal.pone.0095002"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <fabio:hasSubjectTerm rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity/term1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity/term1">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/SubjectTerm"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity/term1">
+      <rdfs:label>Research Article</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <fabio:hasSubjectTerm rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity/term2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity/term2">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/SubjectTerm"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity/term2">
+      <rdfs:label>Biology and life sciences</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity-term2">
+      <skos:narrower rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity-term2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <fabio:hasSubjectTerm rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity/term5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity/term5">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/SubjectTerm"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity/term5">
+      <rdfs:label>Medicine and health sciences</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity-term5">
+      <skos:narrower rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity-term5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <fabio:hasSubjectTerm rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity/term14"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity/term14">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/SubjectTerm"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity/term14">
+      <rdfs:label>Research and analysis methods</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity-term14">
+      <skos:narrower rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity-term14"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <dcterms:title>Dengue Serosurvey in Sint Eustatius</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <prism:alternateTitle>Dengue Serosurvey in Sint Eustatius</prism:alternateTitle>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work">
+      <dcterms:contributor rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-1">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work">
+      <dcterms:creator rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-1">
+      <pro:holdsRoleInTime>
+         <rdf:Description>
+            <pro:relatesToDocument rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work"/>
+            <pro:withRole rdf:resource="http://purl.org/spar/pro/author"/>
+         </rdf:Description>
+      </pro:holdsRoleInTime>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-1">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-1">
+      <foaf:familyName>Leslie</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-1">
+      <foaf:givenName>Teresa</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-1">
+      <pro:holdsRoleInTime>
+         <rdf:Description>
+            <pro:withRole rdf:resource="scoro:affiliate"/>
+            <pro:relatesToOrganization rdf:resource="http://www.biotea.org//organization/DepartmentofAnthropology%2CUniversityofMaryland%2CCollegePark%2CMaryland%2CUnitedStatesofAmerica"/>
+            <pro:relatesToDocument rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work"/>
+            <dcterms:description>Department of Anthropology, University of Maryland, College Park, Maryland, United States of America</dcterms:description>
+         </rdf:Description>
+      </pro:holdsRoleInTime>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//organization/DepartmentofAnthropology%2CUniversityofMaryland%2CCollegePark%2CMaryland%2CUnitedStatesofAmerica">
+      <tvc:hasValueInTime>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://www.essepuntato.it/2012/04/tvc/ValueInTime"/>
+            <tvc:withinContext rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work"/>
+            <tvc:withValue rdf:resource="http://www.biotea.org//organization/DepartmentofAnthropology%2CUniversityofMaryland%2CCollegePark%2CMaryland%2CUnitedStatesofAmerica/contact"/>
+         </rdf:Description>
+      </tvc:hasValueInTime>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//organization/DepartmentofAnthropology%2CUniversityofMaryland%2CCollegePark%2CMaryland%2CUnitedStatesofAmerica/contact">
+      <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#VCard"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//organization/DepartmentofAnthropology%2CUniversityofMaryland%2CCollegePark%2CMaryland%2CUnitedStatesofAmerica/contact">
+      <vcard:org>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+            <vcard:organization-name>Department of Anthropology, University of Maryland, College Park, Maryland, United States of America</vcard:organization-name>
+         </rdf:Description>
+      </vcard:org>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-1">
+      <pro:holdsRoleInTime>
+         <rdf:Description>
+            <pro:withRole rdf:resource="scoro:affiliate"/>
+            <pro:relatesToOrganization rdf:resource="http://www.biotea.org//organization/EasternCaribbeanPublicHealthFoundation%2CSintEustatius%2CNetherlandsDutchCaribbean"/>
+            <pro:relatesToDocument rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work"/>
+            <dcterms:description>Eastern Caribbean Public Health Foundation, Sint Eustatius, Netherlands Dutch Caribbean</dcterms:description>
+         </rdf:Description>
+      </pro:holdsRoleInTime>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//organization/EasternCaribbeanPublicHealthFoundation%2CSintEustatius%2CNetherlandsDutchCaribbean">
+      <tvc:hasValueInTime>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://www.essepuntato.it/2012/04/tvc/ValueInTime"/>
+            <tvc:withinContext rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work"/>
+            <tvc:withValue rdf:resource="http://www.biotea.org//organization/EasternCaribbeanPublicHealthFoundation%2CSintEustatius%2CNetherlandsDutchCaribbean/contact"/>
+         </rdf:Description>
+      </tvc:hasValueInTime>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//organization/EasternCaribbeanPublicHealthFoundation%2CSintEustatius%2CNetherlandsDutchCaribbean/contact">
+      <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#VCard"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//organization/EasternCaribbeanPublicHealthFoundation%2CSintEustatius%2CNetherlandsDutchCaribbean/contact">
+      <vcard:org>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+            <vcard:organization-name>Eastern Caribbean Public Health Foundation, Sint Eustatius, Netherlands Dutch Caribbean</vcard:organization-name>
+         </rdf:Description>
+      </vcard:org>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work">
+      <dcterms:contributor rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-2">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work">
+      <dcterms:creator rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-2">
+      <pro:holdsRoleInTime>
+         <rdf:Description>
+            <pro:relatesToDocument rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work"/>
+            <pro:withRole rdf:resource="http://purl.org/spar/pro/author"/>
+         </rdf:Description>
+      </pro:holdsRoleInTime>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-2">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-2">
+      <foaf:familyName>Martin</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-2">
+      <foaf:givenName>Nicholas J.</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-2">
+      <pro:holdsRoleInTime>
+         <rdf:Description>
+            <pro:withRole rdf:resource="scoro:affiliate"/>
+            <pro:relatesToOrganization rdf:resource="http://www.biotea.org//organization/ViralandRickettsialDiseasesDepartment%2CNavalMedicalResearchCenter%2CSilverSpring%2CMaryland%2CUnitedStatesofAmerica"/>
+            <pro:relatesToDocument rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work"/>
+            <dcterms:description>Viral and Rickettsial Diseases Department, Naval Medical Research Center, Silver Spring, Maryland, United States of America</dcterms:description>
+         </rdf:Description>
+      </pro:holdsRoleInTime>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//organization/ViralandRickettsialDiseasesDepartment%2CNavalMedicalResearchCenter%2CSilverSpring%2CMaryland%2CUnitedStatesofAmerica">
+      <tvc:hasValueInTime>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://www.essepuntato.it/2012/04/tvc/ValueInTime"/>
+            <tvc:withinContext rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work"/>
+            <tvc:withValue rdf:resource="http://www.biotea.org//organization/ViralandRickettsialDiseasesDepartment%2CNavalMedicalResearchCenter%2CSilverSpring%2CMaryland%2CUnitedStatesofAmerica/contact"/>
+         </rdf:Description>
+      </tvc:hasValueInTime>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//organization/ViralandRickettsialDiseasesDepartment%2CNavalMedicalResearchCenter%2CSilverSpring%2CMaryland%2CUnitedStatesofAmerica/contact">
+      <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#VCard"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//organization/ViralandRickettsialDiseasesDepartment%2CNavalMedicalResearchCenter%2CSilverSpring%2CMaryland%2CUnitedStatesofAmerica/contact">
+      <vcard:org>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+            <vcard:organization-name>Viral and Rickettsial Diseases Department, Naval Medical Research Center, Silver Spring, Maryland, United States of America</vcard:organization-name>
+         </rdf:Description>
+      </vcard:org>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-2">
+      <foaf:mbox>njmartin.reh@gmail.com</foaf:mbox>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work">
+      <dcterms:contributor rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-3">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work">
+      <dcterms:creator rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-3">
+      <pro:holdsRoleInTime>
+         <rdf:Description>
+            <pro:relatesToDocument rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work"/>
+            <pro:withRole rdf:resource="http://purl.org/spar/pro/author"/>
+         </rdf:Description>
+      </pro:holdsRoleInTime>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-3">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-3">
+      <foaf:familyName>Jack-Roosberg</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-3">
+      <foaf:givenName>Carol</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-3">
+      <pro:holdsRoleInTime>
+         <rdf:Description>
+            <pro:withRole rdf:resource="scoro:affiliate"/>
+            <pro:relatesToOrganization rdf:resource="http://www.biotea.org//organization/SintEustatiusPublicHealthDepartment%2CSintEustatius%2CNetherlandsDutchCaribbean"/>
+            <pro:relatesToDocument rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work"/>
+            <dcterms:description>Sint Eustatius Public Health Department, Sint Eustatius, Netherlands Dutch Caribbean</dcterms:description>
+         </rdf:Description>
+      </pro:holdsRoleInTime>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//organization/SintEustatiusPublicHealthDepartment%2CSintEustatius%2CNetherlandsDutchCaribbean">
+      <tvc:hasValueInTime>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://www.essepuntato.it/2012/04/tvc/ValueInTime"/>
+            <tvc:withinContext rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work"/>
+            <tvc:withValue rdf:resource="http://www.biotea.org//organization/SintEustatiusPublicHealthDepartment%2CSintEustatius%2CNetherlandsDutchCaribbean/contact"/>
+         </rdf:Description>
+      </tvc:hasValueInTime>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//organization/SintEustatiusPublicHealthDepartment%2CSintEustatius%2CNetherlandsDutchCaribbean/contact">
+      <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#VCard"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//organization/SintEustatiusPublicHealthDepartment%2CSintEustatius%2CNetherlandsDutchCaribbean/contact">
+      <vcard:org>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+            <vcard:organization-name>Sint Eustatius Public Health Department, Sint Eustatius, Netherlands Dutch Caribbean</vcard:organization-name>
+         </rdf:Description>
+      </vcard:org>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work">
+      <dcterms:contributor rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-4">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work">
+      <dcterms:creator rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-4">
+      <pro:holdsRoleInTime>
+         <rdf:Description>
+            <pro:relatesToDocument rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work"/>
+            <pro:withRole rdf:resource="http://purl.org/spar/pro/author"/>
+         </rdf:Description>
+      </pro:holdsRoleInTime>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-4">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-4">
+      <foaf:familyName>Odongo</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-4">
+      <foaf:givenName>George</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-4">
+      <pro:holdsRoleInTime>
+         <rdf:Description>
+            <pro:withRole rdf:resource="scoro:affiliate"/>
+            <pro:relatesToOrganization rdf:resource="http://www.biotea.org//organization/QueenBeatrixMedicalCenter%2CSintEustatius%2CNetherlandsDutchCaribbean"/>
+            <pro:relatesToDocument rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work"/>
+            <dcterms:description>Queen Beatrix Medical Center, Sint Eustatius, Netherlands Dutch Caribbean</dcterms:description>
+         </rdf:Description>
+      </pro:holdsRoleInTime>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//organization/QueenBeatrixMedicalCenter%2CSintEustatius%2CNetherlandsDutchCaribbean">
+      <tvc:hasValueInTime>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://www.essepuntato.it/2012/04/tvc/ValueInTime"/>
+            <tvc:withinContext rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work"/>
+            <tvc:withValue rdf:resource="http://www.biotea.org//organization/QueenBeatrixMedicalCenter%2CSintEustatius%2CNetherlandsDutchCaribbean/contact"/>
+         </rdf:Description>
+      </tvc:hasValueInTime>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//organization/QueenBeatrixMedicalCenter%2CSintEustatius%2CNetherlandsDutchCaribbean/contact">
+      <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#VCard"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//organization/QueenBeatrixMedicalCenter%2CSintEustatius%2CNetherlandsDutchCaribbean/contact">
+      <vcard:org>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+            <vcard:organization-name>Queen Beatrix Medical Center, Sint Eustatius, Netherlands Dutch Caribbean</vcard:organization-name>
+         </rdf:Description>
+      </vcard:org>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work">
+      <dcterms:contributor rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-5">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work">
+      <dcterms:creator rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-5">
+      <pro:holdsRoleInTime>
+         <rdf:Description>
+            <pro:relatesToDocument rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work"/>
+            <pro:withRole rdf:resource="http://purl.org/spar/pro/author"/>
+         </rdf:Description>
+      </pro:holdsRoleInTime>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-5">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-5">
+      <foaf:familyName>Beausoleil</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-5">
+      <foaf:givenName>Edwin</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-5">
+      <pro:holdsRoleInTime>
+         <rdf:Description>
+            <pro:withRole rdf:resource="scoro:affiliate"/>
+            <pro:relatesToOrganization rdf:resource="http://www.biotea.org//organization/EasternCaribbeanPublicHealthFoundation%2CSintEustatius%2CNetherlandsDutchCaribbean"/>
+            <pro:relatesToDocument rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work"/>
+            <dcterms:description>Eastern Caribbean Public Health Foundation, Sint Eustatius, Netherlands Dutch Caribbean</dcterms:description>
+         </rdf:Description>
+      </pro:holdsRoleInTime>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//organization/EasternCaribbeanPublicHealthFoundation%2CSintEustatius%2CNetherlandsDutchCaribbean">
+      <tvc:hasValueInTime>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://www.essepuntato.it/2012/04/tvc/ValueInTime"/>
+            <tvc:withinContext rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work"/>
+            <tvc:withValue rdf:resource="http://www.biotea.org//organization/EasternCaribbeanPublicHealthFoundation%2CSintEustatius%2CNetherlandsDutchCaribbean/contact"/>
+         </rdf:Description>
+      </tvc:hasValueInTime>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//organization/EasternCaribbeanPublicHealthFoundation%2CSintEustatius%2CNetherlandsDutchCaribbean/contact">
+      <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#VCard"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//organization/EasternCaribbeanPublicHealthFoundation%2CSintEustatius%2CNetherlandsDutchCaribbean/contact">
+      <vcard:org>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+            <vcard:organization-name>Eastern Caribbean Public Health Foundation, Sint Eustatius, Netherlands Dutch Caribbean</vcard:organization-name>
+         </rdf:Description>
+      </vcard:org>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work">
+      <dcterms:contributor rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-6"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-6">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work">
+      <dcterms:creator rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-6"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-6">
+      <pro:holdsRoleInTime>
+         <rdf:Description>
+            <pro:relatesToDocument rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work"/>
+            <pro:withRole rdf:resource="http://purl.org/spar/pro/author"/>
+         </rdf:Description>
+      </pro:holdsRoleInTime>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-6">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-6">
+      <foaf:familyName>Tuck</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-6">
+      <foaf:givenName>Jennifer</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-6">
+      <pro:holdsRoleInTime>
+         <rdf:Description>
+            <pro:withRole rdf:resource="scoro:affiliate"/>
+            <pro:relatesToOrganization rdf:resource="http://www.biotea.org//organization/EasternCaribbeanPublicHealthFoundation%2CSintEustatius%2CNetherlandsDutchCaribbean"/>
+            <pro:relatesToDocument rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work"/>
+            <dcterms:description>Eastern Caribbean Public Health Foundation, Sint Eustatius, Netherlands Dutch Caribbean</dcterms:description>
+         </rdf:Description>
+      </pro:holdsRoleInTime>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//organization/EasternCaribbeanPublicHealthFoundation%2CSintEustatius%2CNetherlandsDutchCaribbean">
+      <tvc:hasValueInTime>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://www.essepuntato.it/2012/04/tvc/ValueInTime"/>
+            <tvc:withinContext rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work"/>
+            <tvc:withValue rdf:resource="http://www.biotea.org//organization/EasternCaribbeanPublicHealthFoundation%2CSintEustatius%2CNetherlandsDutchCaribbean/contact"/>
+         </rdf:Description>
+      </tvc:hasValueInTime>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//organization/EasternCaribbeanPublicHealthFoundation%2CSintEustatius%2CNetherlandsDutchCaribbean/contact">
+      <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#VCard"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//organization/EasternCaribbeanPublicHealthFoundation%2CSintEustatius%2CNetherlandsDutchCaribbean/contact">
+      <vcard:org>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+            <vcard:organization-name>Eastern Caribbean Public Health Foundation, Sint Eustatius, Netherlands Dutch Caribbean</vcard:organization-name>
+         </rdf:Description>
+      </vcard:org>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work">
+      <dcterms:contributor rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-7"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-7">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work">
+      <dcterms:creator rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-7"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-7">
+      <pro:holdsRoleInTime>
+         <rdf:Description>
+            <pro:relatesToDocument rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work"/>
+            <pro:withRole rdf:resource="http://purl.org/spar/pro/author"/>
+         </rdf:Description>
+      </pro:holdsRoleInTime>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-7">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-7">
+      <foaf:familyName>Raviprakash</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-7">
+      <foaf:givenName>Kanakatte</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-7">
+      <pro:holdsRoleInTime>
+         <rdf:Description>
+            <pro:withRole rdf:resource="scoro:affiliate"/>
+            <pro:relatesToOrganization rdf:resource="http://www.biotea.org//organization/ViralandRickettsialDiseasesDepartment%2CNavalMedicalResearchCenter%2CSilverSpring%2CMaryland%2CUnitedStatesofAmerica"/>
+            <pro:relatesToDocument rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work"/>
+            <dcterms:description>Viral and Rickettsial Diseases Department, Naval Medical Research Center, Silver Spring, Maryland, United States of America</dcterms:description>
+         </rdf:Description>
+      </pro:holdsRoleInTime>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//organization/ViralandRickettsialDiseasesDepartment%2CNavalMedicalResearchCenter%2CSilverSpring%2CMaryland%2CUnitedStatesofAmerica">
+      <tvc:hasValueInTime>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://www.essepuntato.it/2012/04/tvc/ValueInTime"/>
+            <tvc:withinContext rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work"/>
+            <tvc:withValue rdf:resource="http://www.biotea.org//organization/ViralandRickettsialDiseasesDepartment%2CNavalMedicalResearchCenter%2CSilverSpring%2CMaryland%2CUnitedStatesofAmerica/contact"/>
+         </rdf:Description>
+      </tvc:hasValueInTime>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//organization/ViralandRickettsialDiseasesDepartment%2CNavalMedicalResearchCenter%2CSilverSpring%2CMaryland%2CUnitedStatesofAmerica/contact">
+      <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#VCard"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//organization/ViralandRickettsialDiseasesDepartment%2CNavalMedicalResearchCenter%2CSilverSpring%2CMaryland%2CUnitedStatesofAmerica/contact">
+      <vcard:org>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+            <vcard:organization-name>Viral and Rickettsial Diseases Department, Naval Medical Research Center, Silver Spring, Maryland, United States of America</vcard:organization-name>
+         </rdf:Description>
+      </vcard:org>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work">
+      <dcterms:contributor rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-8"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-8">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work">
+      <dcterms:creator rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-8"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-8">
+      <pro:holdsRoleInTime>
+         <rdf:Description>
+            <pro:relatesToDocument rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work"/>
+            <pro:withRole rdf:resource="http://purl.org/spar/pro/author"/>
+         </rdf:Description>
+      </pro:holdsRoleInTime>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-8">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-8">
+      <foaf:familyName>Kochel</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-8">
+      <foaf:givenName>Tadeusz J.</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-8">
+      <pro:holdsRoleInTime>
+         <rdf:Description>
+            <pro:withRole rdf:resource="scoro:affiliate"/>
+            <pro:relatesToOrganization rdf:resource="http://www.biotea.org//organization/ViralandRickettsialDiseasesDepartment%2CNavalMedicalResearchCenter%2CSilverSpring%2CMaryland%2CUnitedStatesofAmerica"/>
+            <pro:relatesToDocument rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work"/>
+            <dcterms:description>Viral and Rickettsial Diseases Department, Naval Medical Research Center, Silver Spring, Maryland, United States of America</dcterms:description>
+         </rdf:Description>
+      </pro:holdsRoleInTime>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//organization/ViralandRickettsialDiseasesDepartment%2CNavalMedicalResearchCenter%2CSilverSpring%2CMaryland%2CUnitedStatesofAmerica">
+      <tvc:hasValueInTime>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://www.essepuntato.it/2012/04/tvc/ValueInTime"/>
+            <tvc:withinContext rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work"/>
+            <tvc:withValue rdf:resource="http://www.biotea.org//organization/ViralandRickettsialDiseasesDepartment%2CNavalMedicalResearchCenter%2CSilverSpring%2CMaryland%2CUnitedStatesofAmerica/contact"/>
+         </rdf:Description>
+      </tvc:hasValueInTime>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//organization/ViralandRickettsialDiseasesDepartment%2CNavalMedicalResearchCenter%2CSilverSpring%2CMaryland%2CUnitedStatesofAmerica/contact">
+      <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#VCard"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//organization/ViralandRickettsialDiseasesDepartment%2CNavalMedicalResearchCenter%2CSilverSpring%2CMaryland%2CUnitedStatesofAmerica/contact">
+      <vcard:org>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+            <vcard:organization-name>Viral and Rickettsial Diseases Department, Naval Medical Research Center, Silver Spring, Maryland, United States of America</vcard:organization-name>
+         </rdf:Description>
+      </vcard:org>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work">
+      <dcterms:contributor rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-1">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work">
+      <dcterms:contributor rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-1">
+      <pro:holdsRoleInTime>
+         <rdf:Description>
+            <pro:relatesToDocument rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work"/>
+            <pro:withRole rdf:resource="http://purl.org/spar/pro/editor"/>
+         </rdf:Description>
+      </pro:holdsRoleInTime>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-1">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-1">
+      <foaf:familyName>Jin</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-1">
+      <foaf:givenName>Xia</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-1">
+      <pro:holdsRoleInTime>
+         <rdf:Description>
+            <pro:relatesToDocument rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work"/>
+            <pro:withRole>
+               <rdf:Description>
+                  <rdf:type rdf:resource="http://purl.org/spar/pro/Role"/>
+                  <rdfs:label>Editor</rdfs:label>
+               </rdf:Description>
+            </pro:withRole>
+         </rdf:Description>
+      </pro:holdsRoleInTime>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/agent-1">
+      <pro:holdsRoleInTime>
+         <rdf:Description>
+            <pro:withRole rdf:resource="scoro:affiliate"/>
+            <pro:relatesToOrganization rdf:resource="http://www.biotea.org//organization/UniversityofRochester%2CUnitedStatesofAmerica"/>
+            <pro:relatesToDocument rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work"/>
+            <dcterms:description>University of Rochester, United States of America</dcterms:description>
+         </rdf:Description>
+      </pro:holdsRoleInTime>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//organization/UniversityofRochester%2CUnitedStatesofAmerica">
+      <tvc:hasValueInTime>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://www.essepuntato.it/2012/04/tvc/ValueInTime"/>
+            <tvc:withinContext rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work"/>
+            <tvc:withValue rdf:resource="http://www.biotea.org//organization/UniversityofRochester%2CUnitedStatesofAmerica/contact"/>
+         </rdf:Description>
+      </tvc:hasValueInTime>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//organization/UniversityofRochester%2CUnitedStatesofAmerica/contact">
+      <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#VCard"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//organization/UniversityofRochester%2CUnitedStatesofAmerica/contact">
+      <vcard:org>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+            <vcard:organization-name>University of Rochester, United States of America</vcard:organization-name>
+         </rdf:Description>
+      </vcard:org>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <dcterms:identifier>cor1</dcterms:identifier>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/digital-embodiment">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/DigitalManifestation"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/digital-embodiment">
+      <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-6-10</prism:publicationDate>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/PLoSONE/periodical-issue/issue_6">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/PLoSONE/periodical-volume/volume_9"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/PLoSONE/periodical-volume/volume_9">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PeriodicalVolume"/>
+      <prism:volume>9</prism:volume>
+      <frbr:partOf>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://purl.org/spar/fabio/Periodical"/>
+         </rdf:Description>
+      </frbr:partOf>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/PLoSONE/periodical-issue/issue_6"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/PLoSONE/periodical-issue/issue_6">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PeriodicalIssue"/>
+      <frbr:realizationOf rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/conceptual-papers-collection"/>
+      <prism:issueIdentifier rdf:resource="6"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work/conceptual-papers-collection">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/WorkCollection"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <frbr:embodiment>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+            <fabio:hasDigitalArticleIdentifier>e95002</fabio:hasDigitalArticleIdentifier>
+         </rdf:Description>
+      </frbr:embodiment>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work">
+      <frbr:realization rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <fabio:hasDateReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-5-27</fabio:hasDateReceived>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/conceptual-work">
+      <frbr:realization rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <dcterms:dateAccepted rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-3-22</dcterms:dateAccepted>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <fabio:hasCopyrightYear>2014</fabio:hasCopyrightYear>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <frbr:part rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity/reference-list"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity/reference-list">
+      <rdf:type rdf:resource="http://purl.org/spar/biro/ReferenceList"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity/reference-list">
+      <co:item rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-1">
+      <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+      <co:itemContent rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Gubler1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-1">
+      <co:nextItem rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-1">
+      <co:index rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</co:index>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Gubler1">
+      <dcterms:bibliographicCitation>1 GublerDJ (1998) Resurgent vector-borne diseases as a global health problem. Emerg Infect Dis 4: 442–450.</dcterms:bibliographicCitation>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Gubler1">
+      <rdf:type rdf:resource="http://purl.org/spar/biro/BibliographicReference"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Gubler1">
+      <dcterms:identifier>pone.0095002-Gubler1</dcterms:identifier>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Gubler1">
+      <biro:references rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Gubler1/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <cito:cites rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Gubler1/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Gubler1/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+      <frbr:realizationOf rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Gubler1/conceptual-work"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Gubler1/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/JournalArticle"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Gubler1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-1-agent-1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-1-agent-1">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-1-agent-1">
+      <foaf:familyName>Gubler</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-1-agent-1">
+      <foaf:givenName>DJ</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Gubler1/textual-entity">
+      <fabio:hasPublicationYear>1998</fabio:hasPublicationYear>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Gubler1/textual-entity">
+      <dcterms:title>Resurgent vector-borne diseases as a global health problem</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/EmergInfectDis">
+      <dcterms:title>Emerg Infect Dis</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Gubler1/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/EmergInfectDis"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Gubler1/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/EmergInfectDis/volume_4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/EmergInfectDis/volume_4">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PeriodicalVolume"/>
+      <prism:volume>4</prism:volume>
+      <frbr:partOf>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://purl.org/spar/fabio/Periodical"/>
+         </rdf:Description>
+      </frbr:partOf>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Gubler1/textual-entity">
+      <frbr:embodiment rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Gubler1/digital-embodiment"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Gubler1/digital-embodiment">
+      <prism:startingPage rdf:resource="442"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Gubler1/digital-embodiment">
+      <prism:endingPage rdf:resource="450"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity/reference-list">
+      <co:item rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-2">
+      <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+      <co:itemContent rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-World1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-2">
+      <co:nextItem rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-2">
+      <co:index rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</co:index>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-World1">
+      <dcterms:bibliographicCitation>2 World Health Organization [WHO] (2013) Sustaining the drive to overcome the global impact of neglected tropical diseases: Second WHO report on neglected tropical diseases. Geneva, SwitzerlandWorld Health Organization.</dcterms:bibliographicCitation>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-World1">
+      <rdf:type rdf:resource="http://purl.org/spar/biro/BibliographicReference"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-World1">
+      <dcterms:identifier>pone.0095002-World1</dcterms:identifier>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-World1">
+      <biro:references rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-World1/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <cito:cites rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-World1/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-World1/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+      <frbr:realizationOf rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-World1/conceptual-work"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-World1/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Book"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity/reference-list">
+      <co:item rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-3">
+      <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+      <co:itemContent rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Morens1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-3">
+      <co:nextItem rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-3">
+      <co:index rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</co:index>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Morens1">
+      <dcterms:bibliographicCitation>3 MorensDM, FauciAS (2008) Dengue and hemorrhagic fever. JAMA 299: 214–216.</dcterms:bibliographicCitation>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Morens1">
+      <rdf:type rdf:resource="http://purl.org/spar/biro/BibliographicReference"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Morens1">
+      <dcterms:identifier>pone.0095002-Morens1</dcterms:identifier>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Morens1">
+      <biro:references rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Morens1/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <cito:cites rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Morens1/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Morens1/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+      <frbr:realizationOf rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Morens1/conceptual-work"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Morens1/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/JournalArticle"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Morens1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-3-agent-1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-3-agent-1">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-3-agent-1">
+      <foaf:familyName>Morens</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-3-agent-1">
+      <foaf:givenName>DM</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Morens1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-3-agent-2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-3-agent-2">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-3-agent-2">
+      <foaf:familyName>Fauci</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-3-agent-2">
+      <foaf:givenName>AS</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Morens1/textual-entity">
+      <fabio:hasPublicationYear>2008</fabio:hasPublicationYear>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Morens1/textual-entity">
+      <dcterms:title>Dengue and hemorrhagic fever</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/JAMA">
+      <dcterms:title>JAMA</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Morens1/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/JAMA"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Morens1/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/JAMA/volume_299"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/JAMA/volume_299">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PeriodicalVolume"/>
+      <prism:volume>299</prism:volume>
+      <frbr:partOf>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://purl.org/spar/fabio/Periodical"/>
+         </rdf:Description>
+      </frbr:partOf>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Morens1/textual-entity">
+      <frbr:embodiment rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Morens1/digital-embodiment"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Morens1/digital-embodiment">
+      <prism:startingPage rdf:resource="214"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Morens1/digital-embodiment">
+      <prism:endingPage rdf:resource="216"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity/reference-list">
+      <co:item rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-4">
+      <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+      <co:itemContent rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brown1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-4">
+      <co:nextItem rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-4">
+      <co:index rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</co:index>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brown1">
+      <dcterms:bibliographicCitation>4 BrownT, BabbK, NimrodM, CarringtonC, SalasR, et al. (2004) A retrospective study of the 1996 DEN-1 epidemic in Trinidad: demographic and clinical features. Dengue Bull 28: 7–19.</dcterms:bibliographicCitation>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brown1">
+      <rdf:type rdf:resource="http://purl.org/spar/biro/BibliographicReference"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brown1">
+      <dcterms:identifier>pone.0095002-Brown1</dcterms:identifier>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brown1">
+      <biro:references rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brown1/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <cito:cites rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brown1/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brown1/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+      <frbr:realizationOf rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brown1/conceptual-work"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brown1/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/JournalArticle"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brown1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-4-agent-1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-4-agent-1">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-4-agent-1">
+      <foaf:familyName>Brown</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-4-agent-1">
+      <foaf:givenName>T</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brown1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-4-agent-2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-4-agent-2">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-4-agent-2">
+      <foaf:familyName>Babb</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-4-agent-2">
+      <foaf:givenName>K</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brown1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-4-agent-3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-4-agent-3">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-4-agent-3">
+      <foaf:familyName>Nimrod</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-4-agent-3">
+      <foaf:givenName>M</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brown1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-4-agent-4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-4-agent-4">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-4-agent-4">
+      <foaf:familyName>Carrington</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-4-agent-4">
+      <foaf:givenName>C</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brown1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-4-agent-5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-4-agent-5">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-4-agent-5">
+      <foaf:familyName>Salas</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-4-agent-5">
+      <foaf:givenName>R</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brown1/textual-entity">
+      <fabio:hasPublicationYear>2004</fabio:hasPublicationYear>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brown1/textual-entity">
+      <dcterms:title>A retrospective study of the 1996 DEN-1 epidemic in Trinidad: demographic and clinical features</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/DengueBull">
+      <dcterms:title>Dengue Bull</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brown1/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/DengueBull"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brown1/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/DengueBull/volume_28"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/DengueBull/volume_28">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PeriodicalVolume"/>
+      <prism:volume>28</prism:volume>
+      <frbr:partOf>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://purl.org/spar/fabio/Periodical"/>
+         </rdf:Description>
+      </frbr:partOf>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brown1/textual-entity">
+      <frbr:embodiment rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brown1/digital-embodiment"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brown1/digital-embodiment">
+      <prism:startingPage rdf:resource="7"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brown1/digital-embodiment">
+      <prism:endingPage rdf:resource="19"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity/reference-list">
+      <co:item rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-5">
+      <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+      <co:itemContent rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Anderson1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-5">
+      <co:nextItem rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-6"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-5">
+      <co:index rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</co:index>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Anderson1">
+      <dcterms:bibliographicCitation>5 AndersonCR, DownsWG, HillAE (1956) Isolation of dengue virus from a human being in Trinidad. Science 124: 224–225.</dcterms:bibliographicCitation>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Anderson1">
+      <rdf:type rdf:resource="http://purl.org/spar/biro/BibliographicReference"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Anderson1">
+      <dcterms:identifier>pone.0095002-Anderson1</dcterms:identifier>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Anderson1">
+      <biro:references rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Anderson1/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <cito:cites rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Anderson1/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Anderson1/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+      <frbr:realizationOf rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Anderson1/conceptual-work"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Anderson1/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/JournalArticle"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Anderson1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-5-agent-1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-5-agent-1">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-5-agent-1">
+      <foaf:familyName>Anderson</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-5-agent-1">
+      <foaf:givenName>CR</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Anderson1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-5-agent-2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-5-agent-2">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-5-agent-2">
+      <foaf:familyName>Downs</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-5-agent-2">
+      <foaf:givenName>WG</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Anderson1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-5-agent-3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-5-agent-3">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-5-agent-3">
+      <foaf:familyName>Hill</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-5-agent-3">
+      <foaf:givenName>AE</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Anderson1/textual-entity">
+      <fabio:hasPublicationYear>1956</fabio:hasPublicationYear>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Anderson1/textual-entity">
+      <dcterms:title>Isolation of dengue virus from a human being in Trinidad</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/Science">
+      <dcterms:title>Science</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Anderson1/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/Science"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Anderson1/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/Science/volume_124"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/Science/volume_124">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PeriodicalVolume"/>
+      <prism:volume>124</prism:volume>
+      <frbr:partOf>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://purl.org/spar/fabio/Periodical"/>
+         </rdf:Description>
+      </frbr:partOf>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Anderson1/textual-entity">
+      <frbr:embodiment rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Anderson1/digital-embodiment"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Anderson1/digital-embodiment">
+      <prism:startingPage rdf:resource="224"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Anderson1/digital-embodiment">
+      <prism:endingPage rdf:resource="225"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity/reference-list">
+      <co:item rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-6"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-6">
+      <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+      <co:itemContent rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Neff1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-6">
+      <co:nextItem rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-7"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-6">
+      <co:index rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</co:index>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Neff1">
+      <dcterms:bibliographicCitation>6 NeffJM, MorrisL, Gonzalez-AlcoverR, ColemanPH, LyssSB, et al. (1967) Dengue fever in a Puerto Rican community. Am J Epidemiol 86: 162–184.</dcterms:bibliographicCitation>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Neff1">
+      <rdf:type rdf:resource="http://purl.org/spar/biro/BibliographicReference"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Neff1">
+      <dcterms:identifier>pone.0095002-Neff1</dcterms:identifier>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Neff1">
+      <biro:references rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Neff1/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <cito:cites rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Neff1/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Neff1/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+      <frbr:realizationOf rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Neff1/conceptual-work"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Neff1/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/JournalArticle"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Neff1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-6-agent-1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-6-agent-1">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-6-agent-1">
+      <foaf:familyName>Neff</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-6-agent-1">
+      <foaf:givenName>JM</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Neff1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-6-agent-2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-6-agent-2">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-6-agent-2">
+      <foaf:familyName>Morris</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-6-agent-2">
+      <foaf:givenName>L</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Neff1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-6-agent-3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-6-agent-3">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-6-agent-3">
+      <foaf:familyName>Gonzalez-Alcover</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-6-agent-3">
+      <foaf:givenName>R</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Neff1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-6-agent-4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-6-agent-4">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-6-agent-4">
+      <foaf:familyName>Coleman</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-6-agent-4">
+      <foaf:givenName>PH</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Neff1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-6-agent-5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-6-agent-5">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-6-agent-5">
+      <foaf:familyName>Lyss</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-6-agent-5">
+      <foaf:givenName>SB</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Neff1/textual-entity">
+      <fabio:hasPublicationYear>1967</fabio:hasPublicationYear>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Neff1/textual-entity">
+      <dcterms:title>Dengue fever in a Puerto Rican community</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/AmJEpidemiol">
+      <dcterms:title>Am J Epidemiol</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Neff1/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/AmJEpidemiol"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Neff1/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/AmJEpidemiol/volume_86"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/AmJEpidemiol/volume_86">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PeriodicalVolume"/>
+      <prism:volume>86</prism:volume>
+      <frbr:partOf>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://purl.org/spar/fabio/Periodical"/>
+         </rdf:Description>
+      </frbr:partOf>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Neff1/textual-entity">
+      <frbr:embodiment rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Neff1/digital-embodiment"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Neff1/digital-embodiment">
+      <prism:startingPage rdf:resource="162"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Neff1/digital-embodiment">
+      <prism:endingPage rdf:resource="184"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity/reference-list">
+      <co:item rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-7"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-7">
+      <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+      <co:itemContent rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Griffiths1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-7">
+      <co:nextItem rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-8"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-7">
+      <co:index rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</co:index>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Griffiths1">
+      <dcterms:bibliographicCitation>7 GriffithsBB, GrantLS, MinottOD, BelleEA (1968) An epidemic of dengue-like illness in Jamaica-1963. Am J Trop Med Hyg 17: 584–589.</dcterms:bibliographicCitation>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Griffiths1">
+      <rdf:type rdf:resource="http://purl.org/spar/biro/BibliographicReference"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Griffiths1">
+      <dcterms:identifier>pone.0095002-Griffiths1</dcterms:identifier>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Griffiths1">
+      <biro:references rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Griffiths1/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <cito:cites rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Griffiths1/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Griffiths1/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+      <frbr:realizationOf rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Griffiths1/conceptual-work"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Griffiths1/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/JournalArticle"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Griffiths1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-7-agent-1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-7-agent-1">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-7-agent-1">
+      <foaf:familyName>Griffiths</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-7-agent-1">
+      <foaf:givenName>BB</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Griffiths1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-7-agent-2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-7-agent-2">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-7-agent-2">
+      <foaf:familyName>Grant</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-7-agent-2">
+      <foaf:givenName>LS</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Griffiths1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-7-agent-3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-7-agent-3">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-7-agent-3">
+      <foaf:familyName>Minott</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-7-agent-3">
+      <foaf:givenName>OD</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Griffiths1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-7-agent-4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-7-agent-4">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-7-agent-4">
+      <foaf:familyName>Belle</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-7-agent-4">
+      <foaf:givenName>EA</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Griffiths1/textual-entity">
+      <fabio:hasPublicationYear>1968</fabio:hasPublicationYear>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Griffiths1/textual-entity">
+      <dcterms:title>An epidemic of dengue-like illness in Jamaica-1963</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/AmJTropMedHyg">
+      <dcterms:title>Am J Trop Med Hyg</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Griffiths1/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/AmJTropMedHyg"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Griffiths1/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/AmJTropMedHyg/volume_17"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/AmJTropMedHyg/volume_17">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PeriodicalVolume"/>
+      <prism:volume>17</prism:volume>
+      <frbr:partOf>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://purl.org/spar/fabio/Periodical"/>
+         </rdf:Description>
+      </frbr:partOf>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Griffiths1/textual-entity">
+      <frbr:embodiment rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Griffiths1/digital-embodiment"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Griffiths1/digital-embodiment">
+      <prism:startingPage rdf:resource="584"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Griffiths1/digital-embodiment">
+      <prism:endingPage rdf:resource="589"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity/reference-list">
+      <co:item rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-8"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-8">
+      <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+      <co:itemContent rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pan1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-8">
+      <co:nextItem rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-9"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-8">
+      <co:index rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</co:index>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pan1">
+      <dcterms:bibliographicCitation>8 Pan American Health Organization (1965) Epidemiological Notes. Rep 37: 116–121.</dcterms:bibliographicCitation>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pan1">
+      <rdf:type rdf:resource="http://purl.org/spar/biro/BibliographicReference"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pan1">
+      <dcterms:identifier>pone.0095002-Pan1</dcterms:identifier>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pan1">
+      <biro:references rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pan1/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <cito:cites rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pan1/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pan1/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+      <frbr:realizationOf rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pan1/conceptual-work"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pan1/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/JournalArticle"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pan1/textual-entity">
+      <foaf:name>Pan American Health Organization</foaf:name>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pan1/textual-entity">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Group"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pan1/textual-entity">
+      <fabio:hasPublicationYear>1965</fabio:hasPublicationYear>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pan1/textual-entity">
+      <dcterms:title>Epidemiological Notes</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/Rep">
+      <dcterms:title>Rep</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pan1/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/Rep"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pan1/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/Rep/volume_37"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/Rep/volume_37">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PeriodicalVolume"/>
+      <prism:volume>37</prism:volume>
+      <frbr:partOf>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://purl.org/spar/fabio/Periodical"/>
+         </rdf:Description>
+      </frbr:partOf>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pan1/textual-entity">
+      <frbr:embodiment rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pan1/digital-embodiment"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pan1/digital-embodiment">
+      <prism:startingPage rdf:resource="116"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pan1/digital-embodiment">
+      <prism:endingPage rdf:resource="121"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity/reference-list">
+      <co:item rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-9"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-9">
+      <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+      <co:itemContent rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pinheiro1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-9">
+      <co:nextItem rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-10"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-9">
+      <co:index rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</co:index>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pinheiro1">
+      <dcterms:bibliographicCitation>9 PinheiroFP, CorberSJ (1997) Global situation of dengue and dengue haemorrhagic fever, and its emergence in the Americas. World Health Stat 50: 161–169.</dcterms:bibliographicCitation>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pinheiro1">
+      <rdf:type rdf:resource="http://purl.org/spar/biro/BibliographicReference"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pinheiro1">
+      <dcterms:identifier>pone.0095002-Pinheiro1</dcterms:identifier>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pinheiro1">
+      <biro:references rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pinheiro1/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <cito:cites rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pinheiro1/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pinheiro1/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+      <frbr:realizationOf rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pinheiro1/conceptual-work"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pinheiro1/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/JournalArticle"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pinheiro1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-9-agent-1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-9-agent-1">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-9-agent-1">
+      <foaf:familyName>Pinheiro</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-9-agent-1">
+      <foaf:givenName>FP</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pinheiro1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-9-agent-2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-9-agent-2">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-9-agent-2">
+      <foaf:familyName>Corber</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-9-agent-2">
+      <foaf:givenName>SJ</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pinheiro1/textual-entity">
+      <fabio:hasPublicationYear>1997</fabio:hasPublicationYear>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pinheiro1/textual-entity">
+      <dcterms:title>Global situation of dengue and dengue haemorrhagic fever, and its emergence in the Americas</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/WorldHealthStat">
+      <dcterms:title>World Health Stat</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pinheiro1/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/WorldHealthStat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pinheiro1/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/WorldHealthStat/volume_50"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/WorldHealthStat/volume_50">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PeriodicalVolume"/>
+      <prism:volume>50</prism:volume>
+      <frbr:partOf>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://purl.org/spar/fabio/Periodical"/>
+         </rdf:Description>
+      </frbr:partOf>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pinheiro1/textual-entity">
+      <frbr:embodiment rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pinheiro1/digital-embodiment"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pinheiro1/digital-embodiment">
+      <prism:startingPage rdf:resource="161"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Pinheiro1/digital-embodiment">
+      <prism:endingPage rdf:resource="169"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity/reference-list">
+      <co:item rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-10"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-10">
+      <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+      <co:itemContent rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Keating1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-10">
+      <co:nextItem rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-11"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-10">
+      <co:index rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</co:index>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Keating1">
+      <dcterms:bibliographicCitation>10 KeatingJ (2001) An investigation into the cyclical incidence of dengue fever. Soc Sci Med 53: 1587–1597.</dcterms:bibliographicCitation>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Keating1">
+      <rdf:type rdf:resource="http://purl.org/spar/biro/BibliographicReference"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Keating1">
+      <dcterms:identifier>pone.0095002-Keating1</dcterms:identifier>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Keating1">
+      <biro:references rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Keating1/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <cito:cites rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Keating1/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Keating1/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+      <frbr:realizationOf rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Keating1/conceptual-work"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Keating1/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/JournalArticle"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Keating1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-10-agent-1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-10-agent-1">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-10-agent-1">
+      <foaf:familyName>Keating</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-10-agent-1">
+      <foaf:givenName>J</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Keating1/textual-entity">
+      <fabio:hasPublicationYear>2001</fabio:hasPublicationYear>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Keating1/textual-entity">
+      <dcterms:title>An investigation into the cyclical incidence of dengue fever</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/SocSciMed">
+      <dcterms:title>Soc Sci Med</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Keating1/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/SocSciMed"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Keating1/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/SocSciMed/volume_53"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/SocSciMed/volume_53">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PeriodicalVolume"/>
+      <prism:volume>53</prism:volume>
+      <frbr:partOf>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://purl.org/spar/fabio/Periodical"/>
+         </rdf:Description>
+      </frbr:partOf>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Keating1/textual-entity">
+      <frbr:embodiment rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Keating1/digital-embodiment"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Keating1/digital-embodiment">
+      <prism:startingPage rdf:resource="1587"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Keating1/digital-embodiment">
+      <prism:endingPage rdf:resource="1597"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity/reference-list">
+      <co:item rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-11"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-11">
+      <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+      <co:itemContent rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Gubler2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-11">
+      <co:nextItem rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-12"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-11">
+      <co:index rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</co:index>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Gubler2">
+      <dcterms:bibliographicCitation>11 GublerDJ (2002) Epidemic dengue/dengue hemorrhagic fever as a public health, social and economic problem in the 21st century. Trends Microb 10: 100–102.</dcterms:bibliographicCitation>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Gubler2">
+      <rdf:type rdf:resource="http://purl.org/spar/biro/BibliographicReference"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Gubler2">
+      <dcterms:identifier>pone.0095002-Gubler2</dcterms:identifier>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Gubler2">
+      <biro:references rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Gubler2/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <cito:cites rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Gubler2/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Gubler2/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+      <frbr:realizationOf rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Gubler2/conceptual-work"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Gubler2/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/JournalArticle"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Gubler2/conceptual-work">
+      <dcterms:creator rdf:resource="reference-11-agent-1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-11-agent-1">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-11-agent-1">
+      <foaf:familyName>Gubler</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-11-agent-1">
+      <foaf:givenName>DJ</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Gubler2/textual-entity">
+      <fabio:hasPublicationYear>2002</fabio:hasPublicationYear>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Gubler2/textual-entity">
+      <dcterms:title>Epidemic dengue/dengue hemorrhagic fever as a public health, social and economic problem in the 21st century</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/TrendsMicrob">
+      <dcterms:title>Trends Microb</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Gubler2/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/TrendsMicrob"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Gubler2/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/TrendsMicrob/volume_10"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/TrendsMicrob/volume_10">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PeriodicalVolume"/>
+      <prism:volume>10</prism:volume>
+      <frbr:partOf>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://purl.org/spar/fabio/Periodical"/>
+         </rdf:Description>
+      </frbr:partOf>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Gubler2/textual-entity">
+      <frbr:embodiment rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Gubler2/digital-embodiment"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Gubler2/digital-embodiment">
+      <prism:startingPage rdf:resource="100"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Gubler2/digital-embodiment">
+      <prism:endingPage rdf:resource="102"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity/reference-list">
+      <co:item rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-12"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-12">
+      <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+      <co:itemContent rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Isturiz1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-12">
+      <co:nextItem rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-13"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-12">
+      <co:index rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</co:index>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Isturiz1">
+      <dcterms:bibliographicCitation>12 IsturizRE, GublerDJ, Brea del CastilloJ (2000) Dengue and dengue hemorrhagic fever in Latin America and the Caribbean. Infect Dis Clin North Am 14: 121–140, ix.</dcterms:bibliographicCitation>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Isturiz1">
+      <rdf:type rdf:resource="http://purl.org/spar/biro/BibliographicReference"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Isturiz1">
+      <dcterms:identifier>pone.0095002-Isturiz1</dcterms:identifier>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Isturiz1">
+      <biro:references rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Isturiz1/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <cito:cites rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Isturiz1/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Isturiz1/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+      <frbr:realizationOf rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Isturiz1/conceptual-work"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Isturiz1/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/JournalArticle"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Isturiz1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-12-agent-1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-12-agent-1">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-12-agent-1">
+      <foaf:familyName>Isturiz</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-12-agent-1">
+      <foaf:givenName>RE</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Isturiz1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-12-agent-2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-12-agent-2">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-12-agent-2">
+      <foaf:familyName>Gubler</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-12-agent-2">
+      <foaf:givenName>DJ</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Isturiz1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-12-agent-3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-12-agent-3">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-12-agent-3">
+      <foaf:familyName>Brea del Castillo</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-12-agent-3">
+      <foaf:givenName>J</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Isturiz1/textual-entity">
+      <fabio:hasPublicationYear>2000</fabio:hasPublicationYear>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Isturiz1/textual-entity">
+      <dcterms:title>Dengue and dengue hemorrhagic fever in Latin America and the Caribbean</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/InfectDisClinNorthAm">
+      <dcterms:title>Infect Dis Clin North Am</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Isturiz1/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/InfectDisClinNorthAm"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Isturiz1/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/InfectDisClinNorthAm/volume_14"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/InfectDisClinNorthAm/volume_14">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PeriodicalVolume"/>
+      <prism:volume>14</prism:volume>
+      <frbr:partOf>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://purl.org/spar/fabio/Periodical"/>
+         </rdf:Description>
+      </frbr:partOf>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Isturiz1/textual-entity">
+      <frbr:embodiment rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Isturiz1/digital-embodiment"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Isturiz1/digital-embodiment">
+      <prism:startingPage rdf:resource="121"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Isturiz1/digital-embodiment">
+      <prism:endingPage rdf:resource="140"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity/reference-list">
+      <co:item rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-13"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-13">
+      <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+      <co:itemContent rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brady1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-13">
+      <co:nextItem rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-14"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-13">
+      <co:index rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</co:index>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brady1">
+      <dcterms:bibliographicCitation>13 BradyOJ, GethingPW, BhattS, MessinaJP, BrownsteinJS, et al. (2012) Refining the global spatial limits of dengue virus transmission by evidence-based consensus. PLoS Negl Trop Dis 6: e1760.</dcterms:bibliographicCitation>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brady1">
+      <rdf:type rdf:resource="http://purl.org/spar/biro/BibliographicReference"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brady1">
+      <dcterms:identifier>pone.0095002-Brady1</dcterms:identifier>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brady1">
+      <biro:references rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brady1/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <cito:cites rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brady1/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brady1/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+      <frbr:realizationOf rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brady1/conceptual-work"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brady1/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/JournalArticle"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brady1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-13-agent-1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-13-agent-1">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-13-agent-1">
+      <foaf:familyName>Brady</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-13-agent-1">
+      <foaf:givenName>OJ</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brady1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-13-agent-2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-13-agent-2">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-13-agent-2">
+      <foaf:familyName>Gething</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-13-agent-2">
+      <foaf:givenName>PW</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brady1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-13-agent-3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-13-agent-3">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-13-agent-3">
+      <foaf:familyName>Bhatt</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-13-agent-3">
+      <foaf:givenName>S</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brady1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-13-agent-4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-13-agent-4">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-13-agent-4">
+      <foaf:familyName>Messina</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-13-agent-4">
+      <foaf:givenName>JP</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brady1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-13-agent-5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-13-agent-5">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-13-agent-5">
+      <foaf:familyName>Brownstein</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-13-agent-5">
+      <foaf:givenName>JS</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brady1/textual-entity">
+      <fabio:hasPublicationYear>2012</fabio:hasPublicationYear>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brady1/textual-entity">
+      <dcterms:title>Refining the global spatial limits of dengue virus transmission by evidence-based consensus</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/PLoSNeglTropDis">
+      <dcterms:title>PLoS Negl Trop Dis</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brady1/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/PLoSNeglTropDis"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brady1/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/PLoSNeglTropDis/volume_6"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/PLoSNeglTropDis/volume_6">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PeriodicalVolume"/>
+      <prism:volume>6</prism:volume>
+      <frbr:partOf>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://purl.org/spar/fabio/Periodical"/>
+         </rdf:Description>
+      </frbr:partOf>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brady1/textual-entity">
+      <frbr:embodiment rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Brady1/digital-embodiment"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity/reference-list">
+      <co:item rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-14"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-14">
+      <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+      <co:itemContent rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-VanDerKuyp1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-14">
+      <co:nextItem rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-15"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-14">
+      <co:index rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</co:index>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-VanDerKuyp1">
+      <dcterms:bibliographicCitation>14 Van Der KuypE (1948) Mosquito records of the Netherlands Windward Islands. Am J Trop Med Hyg 28: 747–749.</dcterms:bibliographicCitation>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-VanDerKuyp1">
+      <rdf:type rdf:resource="http://purl.org/spar/biro/BibliographicReference"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-VanDerKuyp1">
+      <dcterms:identifier>pone.0095002-VanDerKuyp1</dcterms:identifier>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-VanDerKuyp1">
+      <biro:references rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-VanDerKuyp1/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <cito:cites rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-VanDerKuyp1/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-VanDerKuyp1/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+      <frbr:realizationOf rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-VanDerKuyp1/conceptual-work"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-VanDerKuyp1/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/JournalArticle"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-VanDerKuyp1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-14-agent-1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-14-agent-1">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-14-agent-1">
+      <foaf:familyName>Van Der Kuyp</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-14-agent-1">
+      <foaf:givenName>E</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-VanDerKuyp1/textual-entity">
+      <fabio:hasPublicationYear>1948</fabio:hasPublicationYear>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-VanDerKuyp1/textual-entity">
+      <dcterms:title>Mosquito records of the Netherlands Windward Islands</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/AmJTropMedHyg">
+      <dcterms:title>Am J Trop Med Hyg</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-VanDerKuyp1/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/AmJTropMedHyg"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-VanDerKuyp1/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/AmJTropMedHyg/volume_28"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/AmJTropMedHyg/volume_28">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PeriodicalVolume"/>
+      <prism:volume>28</prism:volume>
+      <frbr:partOf>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://purl.org/spar/fabio/Periodical"/>
+         </rdf:Description>
+      </frbr:partOf>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-VanDerKuyp1/textual-entity">
+      <frbr:embodiment rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-VanDerKuyp1/digital-embodiment"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-VanDerKuyp1/digital-embodiment">
+      <prism:startingPage rdf:resource="747"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-VanDerKuyp1/digital-embodiment">
+      <prism:endingPage rdf:resource="749"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity/reference-list">
+      <co:item rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-15"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-15">
+      <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+      <co:itemContent rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-VanDerKuyp2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-15">
+      <co:nextItem rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-16"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-15">
+      <co:index rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</co:index>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-VanDerKuyp2">
+      <dcterms:bibliographicCitation>15 Van Der KuypE (1949) Annotated list of mosquitoes of the Netherlands Antilles including French St. Martin, with a note on Eutriatoma maculata on Curacao and Bonaire. Doc Neerl Indones Morbis Trop 1: 69.</dcterms:bibliographicCitation>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-VanDerKuyp2">
+      <rdf:type rdf:resource="http://purl.org/spar/biro/BibliographicReference"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-VanDerKuyp2">
+      <dcterms:identifier>pone.0095002-VanDerKuyp2</dcterms:identifier>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-VanDerKuyp2">
+      <biro:references rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-VanDerKuyp2/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <cito:cites rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-VanDerKuyp2/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-VanDerKuyp2/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+      <frbr:realizationOf rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-VanDerKuyp2/conceptual-work"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-VanDerKuyp2/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/JournalArticle"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-VanDerKuyp2/conceptual-work">
+      <dcterms:creator rdf:resource="reference-15-agent-1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-15-agent-1">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-15-agent-1">
+      <foaf:familyName>Van Der Kuyp</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-15-agent-1">
+      <foaf:givenName>E</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-VanDerKuyp2/textual-entity">
+      <fabio:hasPublicationYear>1949</fabio:hasPublicationYear>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-VanDerKuyp2/textual-entity">
+      <dcterms:title>Annotated list of mosquitoes of the Netherlands Antilles including French St. Martin, with a note on Eutriatoma maculata on Curacao and Bonaire</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/DocNeerlIndonesMorbisTrop">
+      <dcterms:title>Doc Neerl Indones Morbis Trop</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-VanDerKuyp2/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/DocNeerlIndonesMorbisTrop"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-VanDerKuyp2/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/DocNeerlIndonesMorbisTrop/volume_1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/DocNeerlIndonesMorbisTrop/volume_1">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PeriodicalVolume"/>
+      <prism:volume>1</prism:volume>
+      <frbr:partOf>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://purl.org/spar/fabio/Periodical"/>
+         </rdf:Description>
+      </frbr:partOf>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-VanDerKuyp2/textual-entity">
+      <frbr:embodiment rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-VanDerKuyp2/digital-embodiment"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity/reference-list">
+      <co:item rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-16"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-16">
+      <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+      <co:itemContent rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Knudsen1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-16">
+      <co:nextItem rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-17"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-16">
+      <co:index rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</co:index>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Knudsen1">
+      <dcterms:bibliographicCitation>16 KnudsenA (1983) Aedes aegypti and dengue in the Caribbean. Mosq News 43: 269–275.</dcterms:bibliographicCitation>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Knudsen1">
+      <rdf:type rdf:resource="http://purl.org/spar/biro/BibliographicReference"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Knudsen1">
+      <dcterms:identifier>pone.0095002-Knudsen1</dcterms:identifier>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Knudsen1">
+      <biro:references rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Knudsen1/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <cito:cites rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Knudsen1/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Knudsen1/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+      <frbr:realizationOf rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Knudsen1/conceptual-work"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Knudsen1/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/JournalArticle"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Knudsen1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-16-agent-1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-16-agent-1">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-16-agent-1">
+      <foaf:familyName>Knudsen</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-16-agent-1">
+      <foaf:givenName>A</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Knudsen1/textual-entity">
+      <fabio:hasPublicationYear>1983</fabio:hasPublicationYear>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Knudsen1/textual-entity">
+      <dcterms:title>Aedes aegypti and dengue in the Caribbean</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/MosqNews">
+      <dcterms:title>Mosq News</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Knudsen1/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/MosqNews"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Knudsen1/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/MosqNews/volume_43"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/MosqNews/volume_43">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PeriodicalVolume"/>
+      <prism:volume>43</prism:volume>
+      <frbr:partOf>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://purl.org/spar/fabio/Periodical"/>
+         </rdf:Description>
+      </frbr:partOf>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Knudsen1/textual-entity">
+      <frbr:embodiment rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Knudsen1/digital-embodiment"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Knudsen1/digital-embodiment">
+      <prism:startingPage rdf:resource="269"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Knudsen1/digital-embodiment">
+      <prism:endingPage rdf:resource="275"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity/reference-list">
+      <co:item rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-17"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-17">
+      <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+      <co:itemContent rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-vanderSar1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-17">
+      <co:nextItem rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-18"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-17">
+      <co:index rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</co:index>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-vanderSar1">
+      <dcterms:bibliographicCitation>17 van der SarA, GonzalesW, HullB, WilliamsMC (1979) Serological evidence of dengue virus activity in children on the Northern Leeward Islands (Netherlands Antilles). Trop Geogr Med 31: 229–236.</dcterms:bibliographicCitation>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-vanderSar1">
+      <rdf:type rdf:resource="http://purl.org/spar/biro/BibliographicReference"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-vanderSar1">
+      <dcterms:identifier>pone.0095002-vanderSar1</dcterms:identifier>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-vanderSar1">
+      <biro:references rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-vanderSar1/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <cito:cites rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-vanderSar1/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-vanderSar1/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+      <frbr:realizationOf rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-vanderSar1/conceptual-work"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-vanderSar1/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/JournalArticle"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-vanderSar1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-17-agent-1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-17-agent-1">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-17-agent-1">
+      <foaf:familyName>van der Sar</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-17-agent-1">
+      <foaf:givenName>A</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-vanderSar1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-17-agent-2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-17-agent-2">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-17-agent-2">
+      <foaf:familyName>Gonzales</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-17-agent-2">
+      <foaf:givenName>W</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-vanderSar1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-17-agent-3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-17-agent-3">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-17-agent-3">
+      <foaf:familyName>Hull</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-17-agent-3">
+      <foaf:givenName>B</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-vanderSar1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-17-agent-4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-17-agent-4">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-17-agent-4">
+      <foaf:familyName>Williams</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-17-agent-4">
+      <foaf:givenName>MC</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-vanderSar1/textual-entity">
+      <fabio:hasPublicationYear>1979</fabio:hasPublicationYear>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-vanderSar1/textual-entity">
+      <dcterms:title>Serological evidence of dengue virus activity in children on the Northern Leeward Islands (Netherlands Antilles)</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/TropGeogrMed">
+      <dcterms:title>Trop Geogr Med</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-vanderSar1/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/TropGeogrMed"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-vanderSar1/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/TropGeogrMed/volume_31"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/TropGeogrMed/volume_31">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PeriodicalVolume"/>
+      <prism:volume>31</prism:volume>
+      <frbr:partOf>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://purl.org/spar/fabio/Periodical"/>
+         </rdf:Description>
+      </frbr:partOf>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-vanderSar1/textual-entity">
+      <frbr:embodiment rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-vanderSar1/digital-embodiment"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-vanderSar1/digital-embodiment">
+      <prism:startingPage rdf:resource="229"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-vanderSar1/digital-embodiment">
+      <prism:endingPage rdf:resource="236"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity/reference-list">
+      <co:item rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-18"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-18">
+      <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+      <co:itemContent rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Peyrefitte1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-18">
+      <co:nextItem rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-19"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-18">
+      <co:index rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</co:index>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Peyrefitte1">
+      <dcterms:bibliographicCitation>18 PeyrefitteCN, PastorinoBA, BessaudM, GravierP, TockF, et al. (2005) Dengue type 3 virus, Saint Martin, 2003–2004. Emerg Inf Dis 11: 757.</dcterms:bibliographicCitation>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Peyrefitte1">
+      <rdf:type rdf:resource="http://purl.org/spar/biro/BibliographicReference"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Peyrefitte1">
+      <dcterms:identifier>pone.0095002-Peyrefitte1</dcterms:identifier>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Peyrefitte1">
+      <biro:references rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Peyrefitte1/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <cito:cites rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Peyrefitte1/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Peyrefitte1/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+      <frbr:realizationOf rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Peyrefitte1/conceptual-work"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Peyrefitte1/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/JournalArticle"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Peyrefitte1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-18-agent-1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-18-agent-1">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-18-agent-1">
+      <foaf:familyName>Peyrefitte</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-18-agent-1">
+      <foaf:givenName>CN</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Peyrefitte1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-18-agent-2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-18-agent-2">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-18-agent-2">
+      <foaf:familyName>Pastorino</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-18-agent-2">
+      <foaf:givenName>BA</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Peyrefitte1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-18-agent-3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-18-agent-3">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-18-agent-3">
+      <foaf:familyName>Bessaud</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-18-agent-3">
+      <foaf:givenName>M</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Peyrefitte1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-18-agent-4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-18-agent-4">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-18-agent-4">
+      <foaf:familyName>Gravier</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-18-agent-4">
+      <foaf:givenName>P</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Peyrefitte1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-18-agent-5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-18-agent-5">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-18-agent-5">
+      <foaf:familyName>Tock</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-18-agent-5">
+      <foaf:givenName>F</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Peyrefitte1/textual-entity">
+      <fabio:hasPublicationYear>2005</fabio:hasPublicationYear>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Peyrefitte1/textual-entity">
+      <dcterms:title>Dengue type 3 virus, Saint Martin, 2003–2004</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/EmergInfDis">
+      <dcterms:title>Emerg Inf Dis</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Peyrefitte1/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/EmergInfDis"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Peyrefitte1/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/EmergInfDis/volume_11"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/EmergInfDis/volume_11">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PeriodicalVolume"/>
+      <prism:volume>11</prism:volume>
+      <frbr:partOf>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://purl.org/spar/fabio/Periodical"/>
+         </rdf:Description>
+      </frbr:partOf>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Peyrefitte1/textual-entity">
+      <frbr:embodiment rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Peyrefitte1/digital-embodiment"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity/reference-list">
+      <co:item rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-19"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-19">
+      <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+      <co:itemContent rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Kesztyus1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-19">
+      <co:nextItem rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-20"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-19">
+      <co:index rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</co:index>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Kesztyus1">
+      <dcterms:bibliographicCitation>19 Kesztyus B (2005) Dengue in the Dutch Caribbean 15th European Congress of Clinical Microbiology and Infectious Diseases. Copenhagen, Denmark.</dcterms:bibliographicCitation>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Kesztyus1">
+      <rdf:type rdf:resource="http://purl.org/spar/biro/BibliographicReference"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Kesztyus1">
+      <dcterms:identifier>pone.0095002-Kesztyus1</dcterms:identifier>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Kesztyus1">
+      <biro:references rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Kesztyus1/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <cito:cites rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Kesztyus1/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Kesztyus1/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+      <frbr:realizationOf rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Kesztyus1/conceptual-work"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Kesztyus1/textual-entity">
+      <rdf:type>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+            <rdfs:label>other</rdfs:label>
+            <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Expression"/>
+         </rdf:Description>
+      </rdf:type>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity/reference-list">
+      <co:item rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-20"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-20">
+      <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+      <co:itemContent rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Ansari1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-20">
+      <co:nextItem rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-21"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-20">
+      <co:index rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</co:index>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Ansari1">
+      <dcterms:bibliographicCitation>20 AnsariMZ, ShopeRE, MalikS (1993) Evaluation of vero cell lysate antigen for the ELISA of flaviviruses. J Clin Lab Anal 7: 230–237.</dcterms:bibliographicCitation>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Ansari1">
+      <rdf:type rdf:resource="http://purl.org/spar/biro/BibliographicReference"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Ansari1">
+      <dcterms:identifier>pone.0095002-Ansari1</dcterms:identifier>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Ansari1">
+      <biro:references rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Ansari1/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <cito:cites rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Ansari1/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Ansari1/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+      <frbr:realizationOf rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Ansari1/conceptual-work"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Ansari1/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/JournalArticle"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Ansari1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-20-agent-1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-20-agent-1">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-20-agent-1">
+      <foaf:familyName>Ansari</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-20-agent-1">
+      <foaf:givenName>MZ</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Ansari1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-20-agent-2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-20-agent-2">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-20-agent-2">
+      <foaf:familyName>Shope</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-20-agent-2">
+      <foaf:givenName>RE</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Ansari1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-20-agent-3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-20-agent-3">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-20-agent-3">
+      <foaf:familyName>Malik</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-20-agent-3">
+      <foaf:givenName>S</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Ansari1/textual-entity">
+      <fabio:hasPublicationYear>1993</fabio:hasPublicationYear>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Ansari1/textual-entity">
+      <dcterms:title>Evaluation of vero cell lysate antigen for the ELISA of flaviviruses</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/JClinLabAnal">
+      <dcterms:title>J Clin Lab Anal</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Ansari1/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/JClinLabAnal"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Ansari1/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/JClinLabAnal/volume_7"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/JClinLabAnal/volume_7">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PeriodicalVolume"/>
+      <prism:volume>7</prism:volume>
+      <frbr:partOf>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://purl.org/spar/fabio/Periodical"/>
+         </rdf:Description>
+      </frbr:partOf>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Ansari1/textual-entity">
+      <frbr:embodiment rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Ansari1/digital-embodiment"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Ansari1/digital-embodiment">
+      <prism:startingPage rdf:resource="230"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Ansari1/digital-embodiment">
+      <prism:endingPage rdf:resource="237"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity/reference-list">
+      <co:item rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-21"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-21">
+      <rdf:type rdf:resource="http://purl.org/co/ListItem"/>
+      <co:itemContent rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Russell1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-item-21">
+      <co:index rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</co:index>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Russell1">
+      <dcterms:bibliographicCitation>21 RussellPK, NisalakA, SukhavachanaP, VivonaS (1967) A plaque reduction test for dengue virus neutralizing antibodies. J Immunol 99: 285–290.</dcterms:bibliographicCitation>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Russell1">
+      <rdf:type rdf:resource="http://purl.org/spar/biro/BibliographicReference"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Russell1">
+      <dcterms:identifier>pone.0095002-Russell1</dcterms:identifier>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Russell1">
+      <biro:references rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Russell1/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/textual-entity">
+      <cito:cites rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Russell1/textual-entity"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Russell1/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+      <frbr:realizationOf rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Russell1/conceptual-work"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Russell1/textual-entity">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/JournalArticle"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Russell1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-21-agent-1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-21-agent-1">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-21-agent-1">
+      <foaf:familyName>Russell</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-21-agent-1">
+      <foaf:givenName>PK</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Russell1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-21-agent-2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-21-agent-2">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-21-agent-2">
+      <foaf:familyName>Nisalak</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-21-agent-2">
+      <foaf:givenName>A</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Russell1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-21-agent-3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-21-agent-3">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-21-agent-3">
+      <foaf:familyName>Sukhavachana</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-21-agent-3">
+      <foaf:givenName>P</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Russell1/conceptual-work">
+      <dcterms:creator rdf:resource="reference-21-agent-4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-21-agent-4">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-21-agent-4">
+      <foaf:familyName>Vivona</foaf:familyName>
+   </rdf:Description>
+   <rdf:Description rdf:about="reference-21-agent-4">
+      <foaf:givenName>S</foaf:givenName>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Russell1/textual-entity">
+      <fabio:hasPublicationYear>1967</fabio:hasPublicationYear>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Russell1/textual-entity">
+      <dcterms:title>A plaque reduction test for dengue virus neutralizing antibodies</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/JImmunol">
+      <dcterms:title>J Immunol</dcterms:title>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Russell1/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/JImmunol"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Russell1/textual-entity">
+      <frbr:partOf rdf:resource="http://www.biotea.org//journal/JImmunol/volume_99"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//journal/JImmunol/volume_99">
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PeriodicalVolume"/>
+      <prism:volume>99</prism:volume>
+      <frbr:partOf>
+         <rdf:Description>
+            <rdf:type rdf:resource="http://purl.org/spar/fabio/Periodical"/>
+         </rdf:Description>
+      </frbr:partOf>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Russell1/textual-entity">
+      <frbr:embodiment rdf:resource="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Russell1/digital-embodiment"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Russell1/digital-embodiment">
+      <prism:startingPage rdf:resource="285"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.biotea.org//doi/10.1371/journal.pone.0095002/reference-pone.0095002-Russell1/digital-embodiment">
+      <prism:endingPage rdf:resource="290"/>
+   </rdf:Description>
+</rdf:RDF>

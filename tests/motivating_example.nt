@@ -1,0 +1,353 @@
+<http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q215627> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q5> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q901> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Agent> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Scientist> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://umbel.org/umbel/rc/Scientist> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/Acquirer109764201> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/Associate109816771> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/CausalAgent100007347> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/Colleague109935990> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/ComputerScientist109951070> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/ComputerUser109951274> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/Employee110053808> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/Expert109617867> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/Gambler110118844> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/Honoree110183757> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/InteriorDesigner110210648> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/Laureate110249011> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/LivingThing100004258> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/Object100002684> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/Organism100004475> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/Peer109626238> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/Person100007846> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/PhysicalEntity100001930> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/PrizeWinner109627807> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/Recipient109627906> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/Scientist110560637> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/Specialist110631941> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/Whole100003553> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/Winner110782791> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/Worker109632518> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/YagoLegalActor> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/YagoLegalActorGeo> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/WikicatAmericanComputerScientists> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/WikicatAmericanPeople> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/WikicatComputerDesigners> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/WikicatComputerScientists> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/WikicatDraperPrizeWinners> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/WikicatFellowsOfTheAssociationForComputingMachinery> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/WikicatLivingPeople> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/WikicatMicrosoftEmployees> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/WikicatMicrosoftTechnicalFellows> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/WikicatTuringAwardLaureates> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/WikicatXeroxPeople> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/2002/07/owl#sameAs> <http://www.wikidata.org/entity/Q92828> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/2002/07/owl#sameAs> <http://fr.dbpedia.org/resource/Charles_P._Thacker> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/2002/07/owl#sameAs> <http://de.dbpedia.org/resource/Charles_P._Thacker> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/2002/07/owl#sameAs> <http://es.dbpedia.org/resource/Charles_Thacker> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/2002/07/owl#sameAs> <http://ja.dbpedia.org/resource/チャック・サッカー> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/2002/07/owl#sameAs> <http://pt.dbpedia.org/resource/Charles_Thacker> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/2002/07/owl#sameAs> <http://wikidata.dbpedia.org/resource/Q92828> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/2002/07/owl#sameAs> <http://rdf.freebase.com/ns/m.05vzxh> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/2002/07/owl#sameAs> <http://yago-knowledge.org/resource/Charles_P._Thacker> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://en.wikipedia.org/wiki/Charles_P._Thacker?oldid=704898256> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://dbpedia.org/ontology/almaMater> <http://dbpedia.org/resource/ETH_Zurich> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://dbpedia.org/ontology/almaMater> <http://dbpedia.org/resource/University_of_California,_Berkeley> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://dbpedia.org/ontology/award> <http://dbpedia.org/resource/IEEE_John_von_Neumann_Medal> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://dbpedia.org/ontology/award> <http://dbpedia.org/resource/Turing_Award> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://dbpedia.org/ontology/award> <http://dbpedia.org/resource/Computer_History_Museum> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://dbpedia.org/ontology/field> <http://dbpedia.org/resource/Computer_science> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://dbpedia.org/ontology/knownFor> <http://dbpedia.org/resource/Xerox_Alto> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/United_States> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://xmlns.com/foaf/0.1/depiction> <http://commons.wikimedia.org/wiki/Special:FilePath/Chuckthacker.jpg> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> <http://en.wikipedia.org/wiki/Charles_P._Thacker> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://dbpedia.org/ontology/thumbnail> <http://commons.wikimedia.org/wiki/Special:FilePath/Chuckthacker.jpg?width=300> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Pasadena,_California> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/United_States> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://dbpedia.org/property/birthPlace> <http://dbpedia.org/resource/Pasadena,_California> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://dbpedia.org/property/birthPlace> <http://dbpedia.org/resource/United_States> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:1943_births> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:American_computer_scientists> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Computer_designers> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Draper_Prize_winners> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Fellows_of_the_Association_for_Computing_Machinery> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Living_people> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Members_of_the_United_States_National_Academy_of_Engineering> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Turing_Award_laureates> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:University_of_California,_Berkeley_alumni> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Xerox_people> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Microsoft_technical_fellows> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://dbpedia.org/ontology/wikiPageExternalLink> <http://www.budiu.info/blog/thacker.html> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://dbpedia.org/ontology/wikiPageExternalLink> <http://www.ieee.org/about/awards/bios/vonneumann_recipients.html#sect8> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://dbpedia.org/ontology/wikiPageExternalLink> <http://news.microsoft.com/2010/03/09/chuck-thacker-attains-computings-peak/> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://dbpedia.org/ontology/wikiPageExternalLink> <http://blogs.technet.com/cdnitmanagers/archive/2010/03/25/legendary-pioneer-chuck-thacker-recent-turing-award-recipient-250k-prize-considered-nobel-prize-of-computing-from-microsoft-research-shares-his-iconic-legacy-current-and-future-innovative-research.aspx> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://dbpedia.org/ontology/wikiPageExternalLink> <http://www.microsoft.com/about/technicalrecognition/Chuck-Thacker.aspx> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://dbpedia.org/property/almaMater> <http://dbpedia.org/resource/University_of_California,_Berkeley> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://dbpedia.org/property/field> <http://dbpedia.org/resource/Computer_science> .
+ <http://dbpedia.org/resource/Charles_P._Thacker> <http://dbpedia.org/property/nationality> <http://dbpedia.org/resource/United_States> .
+
+<http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/2000/01/rdf-schema#label> "Charles P. Thacker" .
+<http://dbpedia.org/resource/Charles_P._Thacker> <http://www.w3.org/2000/01/rdf-schema#comment> "Charles P. (Chuck) Thacker (born 1943) is an American pioneer computer designer. He worked on the Xerox Alto which is the first computer that used a mouse-driven Graphical User Interface." .
+<http://dbpedia.org/resource/Charles_P._Thacker> <http://dbpedia.org/ontology/abstract> "Charles P. (Chuck) Thacker (born 1943) is an American pioneer computer designer. He worked on the Xerox Alto which is the first computer that used a mouse-driven Graphical User Interface." .
+<http://dbpedia.org/resource/Charles_P._Thacker> <http://xmlns.com/foaf/0.1/name> "Charles P. (Chuck) Thacker" .
+<http://dbpedia.org/resource/Charles_P._Thacker> <http://dbpedia.org/property/name> "Charles P.  Thacker" .
+<http://dbpedia.org/resource/Charles_P._Thacker> <http://dbpedia.org/property/awards> "Computer History Museum Fellow" .
+<http://dbpedia.org/resource/Charles_P._Thacker> <http://dbpedia.org/property/awards> "A. M. Turing Award" .
+<http://dbpedia.org/resource/Charles_P._Thacker> <http://dbpedia.org/property/awards> "IEEE John von Neumann Medal" .
+<http://dbpedia.org/resource/Charles_P._Thacker> <http://dbpedia.org/property/knownFor> "Alto" .
+<http://dbpedia.org/resource/Glen_Culler>	<http://www.w3.org/2000/01/rdf-schema#label>	"Glen Culler"@de .
+<http://dbpedia.org/resource/Glen_Culler>	<http://dbpedia.org/property/almaMater>	<http://dbpedia.org/resource/University_of_California,_Los_Angeles> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.wikidata.org/entity/Q5> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.wikidata.org/entity/Q215627> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://www.w3.org/2002/07/owl#sameAs>	<http://rdf.freebase.com/ns/m.0h6ygc> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://www.w3.org/2000/01/rdf-schema#comment>	"Glen Jacob Culler (July 7, 1927 \u2013 May 3, 2003) was a professor of electrical engineering and an important early innovator in the development of the Internet. Culler joined the University of California, Santa Barbara (UCSB) mathematics faculty in 1959 and helped put the campus in the forefront of what would become the field of computer science. He later served as director of the UCSB Computer Center and professor in the College of Engineering and extended his revolutionary view of the role of computers to include their use in the classroom. He left UCSB to work in industry and establish his own company, called Culler-Harrison, in 1969. Culler-Harrison became CHI Systems, and later, Culler Scientific."@en .
+<http://dbpedia.org/resource/Glen_Culler>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.wikidata.org/entity/Q901> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/Object100002684> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://dbpedia.org/property/deathDate>	"2003-05-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:2003_deaths> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://dbpedia.org/ontology/abstract>	"Glen Culler (* 7. Juli 1927 in Savonburg; \u2020 3. Mai 2003) war ein US-amerikanischer Mathematiker und Computerentwickler."@de .
+<http://dbpedia.org/resource/Glen_Culler>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://umbel.org/umbel/rc/Scientist> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/YagoLegalActorGeo> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/YagoLegalActor> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://dbpedia.org/ontology/field>	<http://dbpedia.org/resource/Electrical_engineering> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://dbpedia.org/property/name>	"Glen Culler"@en .
+<http://dbpedia.org/resource/Glen_Culler>	<http://dbpedia.org/ontology/almaMater>	<http://dbpedia.org/resource/University_of_California,_Los_Angeles> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://dbpedia.org/ontology/deathDate>	"2003-05-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://dbpedia.org/ontology/wikiPageExternalLink>	<http://home.att.net/%7Emicroworks/gjc/timeline.html> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Seymour_Cray_Computer_Engineering_Award_recipients> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://xmlns.com/foaf/0.1/name>	"Culler, Glen"@en .
+<http://dbpedia.org/resource/Glen_Culler>	<http://xmlns.com/foaf/0.1/name>	"Glen Culler"@en .
+<http://dbpedia.org/resource/Glen_Culler>	<http://dbpedia.org/property/wordnet_type>	<http://www.w3.org/2006/03/wn/wn20/instances/synset-scientist-noun-1> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://www.w3.org/2002/07/owl#sameAs>	<http://de.dbpedia.org/resource/Glen_Culler> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://dbpedia.org/ontology/birthYear>	"1927"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://dbpedia.org/ontology/field>	<http://dbpedia.org/resource/Computer_science> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://dbpedia.org/property/birthPlace>	<http://dbpedia.org/resource/Savonburg,_Kansas> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/ComputerScientist109951070> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/ontology/Agent> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/ComputerUser109951274> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://purl.org/dc/elements/1.1/description>	"American engineer"@en .
+<http://dbpedia.org/resource/Glen_Culler>	<http://www.w3.org/2000/01/rdf-schema#comment>	"Glen Culler (* 7. Juli 1927 in Savonburg; \u2020 3. Mai 2003) war ein US-amerikanischer Mathematiker und Computerentwickler."@de .
+<http://dbpedia.org/resource/Glen_Culler>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/Person100007846> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://dbpedia.org/property/dateOfDeath>	"2003-05-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://www.w3.org/2002/07/owl#sameAs>	<http://wikidata.dbpedia.org/resource/Q5567669> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://xmlns.com/foaf/0.1/givenName>	"Glen"@en .
+<http://dbpedia.org/resource/Glen_Culler>	<http://dbpedia.org/property/dateOfBirth>	"1927-07-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://dbpedia.org/property/name>	"Culler, Glen"@en .
+<http://dbpedia.org/resource/Glen_Culler>	<http://xmlns.com/foaf/0.1/isPrimaryTopicOf>	<http://en.wikipedia.org/wiki/Glen_Culler> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://dbpedia.org/ontology/doctoralAdvisor>	<http://dbpedia.org/resource/Magnus_Hestenes> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:National_Medal_of_Technology_recipients> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://purl.org/dc/elements/1.1/description>	"American engineer" .
+<http://dbpedia.org/resource/Glen_Culler>	<http://dbpedia.org/property/fields>	"Electrical engineering, computer science"@en .
+<http://dbpedia.org/resource/Glen_Culler>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/LivingThing100004258> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://dbpedia.org/ontology/wikiPageRevisionID>	"667910515"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/WikicatAmericanPeople> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:University_of_California,_Santa_Barbara_faculty> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://dbpedia.org/ontology/wikiPageExternalLink>	<http://www.engineering.ucsb.edu/coe/pubs/noted/MemoriamF03.pdf> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/Whole100003553> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://xmlns.com/foaf/0.1/surname>	"Culler"@en .
+<http://dbpedia.org/resource/Glen_Culler>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/CausalAgent100007347> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://dbpedia.org/ontology/birthPlace>	<http://dbpedia.org/resource/Savonburg,_Kansas> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://dbpedia.org/property/shortDescription>	"American engineer"@en .
+<http://dbpedia.org/resource/Glen_Culler>	<http://dbpedia.org/property/almaMater>	<http://dbpedia.org/resource/University_of_California,_Berkeley> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/ontology/Scientist> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/WikicatComputerScientists> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://dbpedia.org/property/placeOfBirth>	<http://dbpedia.org/resource/Savonburg,_Kansas> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://dbpedia.org/ontology/deathYear>	"2003"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://dbpedia.org/ontology/birthDate>	"1927-07-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://schema.org/Person> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://dbpedia.org/property/birthDate>	"1927-07-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://dbpedia.org/ontology/wikiPageID>	"7150536"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://www.w3.org/ns/prov#wasDerivedFrom>	<http://en.wikipedia.org/wiki/Glen_Culler?oldid=667910515> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:1927_births> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://dbpedia.org/ontology/almaMater>	<http://dbpedia.org/resource/University_of_California,_Berkeley> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/PhysicalEntity100001930> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/Scientist110560637> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/Organism100004475> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://www.w3.org/2002/07/owl#sameAs>	<http://www.wikidata.org/entity/Q5567669> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Thing> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://www.w3.org/2000/01/rdf-schema#label>	"Glen Culler"@en .
+<http://dbpedia.org/resource/Glen_Culler>	<http://www.w3.org/2002/07/owl#sameAs>	<http://yago-knowledge.org/resource/Glen_Culler> .
+<http://dbpedia.org/resource/Glen_Culler>	<http://dbpedia.org/ontology/abstract>	"Glen Jacob Culler (July 7, 1927 \u2013 May 3, 2003) was a professor of electrical engineering and an important early innovator in the development of the Internet. Culler joined the University of California, Santa Barbara (UCSB) mathematics faculty in 1959 and helped put the campus in the forefront of what would become the field of computer science. He later served as director of the UCSB Computer Center and professor in the College of Engineering and extended his revolutionary view of the role of computers to include their use in the classroom. He left UCSB to work in industry and establish his own company, called Culler-Harrison, in 1969. Culler-Harrison became CHI Systems, and later, Culler Scientific. One of Glen Culler's sons, David Culler, is a notable computer scientist in his own right. Another son,Marc Culler, is a distinguished pure mathematician working in low-dimensional topology."@en .
+<http://dbpedia.org/resource/Glen_Culler>	<http://dbpedia.org/property/doctoralAdvisor>	<http://dbpedia.org/resource/Magnus_Hestenes> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/abstract>	"Kenneth Iverson, matem\u00E1tico canadiense, naci\u00F3 el 17 de diciembre de 1920 en Alberta y falleci\u00F3 el 19 de octubre de 2004 en Toronto."@es .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/2002/07/owl#sameAs>	<http://yago-knowledge.org/resource/Kenneth_E._Iverson> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/abstract>	"Kenneth Eugene \u201EKen\u201C Iverson (* 17. Dezember 1920 in Camrose, Alberta; \u2020 19. Oktober 2004 in Toronto, Ontario) war ein kanadischer Mathematiker und Informatiker, der die Programmiersprachen APL und J entwickelt hat."@de .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/deathPlace>	<http://dbpedia.org/resource/Toronto> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/abstract>	"\u041A\u0435\u043D\u043D\u0435\u0442 \u042E\u0434\u0436\u0438\u043D \u0410\u0439\u0432\u0435\u0440\u0441\u043E\u043D (\u0430\u043D\u0433\u043B. Kenneth Eugene Iverson; 17 \u0434\u0435\u043A\u0430\u0431\u0440\u044F 1920 \u2014 19 \u043E\u043A\u0442\u044F\u0431\u0440\u044F 2004, \u041A\u0430\u043D\u0430\u0434\u0430) \u2014 \u043A\u0430\u043D\u0430\u0434\u0441\u043A\u0438\u0439 \u0443\u0447\u0451\u043D\u044B\u0439 \u0432 \u043E\u0431\u043B\u0430\u0441\u0442\u0438 \u0442\u0435\u043E\u0440\u0438\u0438 \u0432\u044B\u0447\u0438\u0441\u043B\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0445 \u0441\u0438\u0441\u0442\u0435\u043C, \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0441\u0442, \u0430\u0432\u0442\u043E\u0440 \u044F\u0437\u044B\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F APL, \u043F\u043E\u043B\u0443\u0447\u0438\u0432\u0448\u0438\u0439 \u0437\u0430 \u044D\u0442\u0443 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0443 \u0432 1979 \u0433\u043E\u0434\u0443 \u043F\u0440\u0435\u043C\u0438\u044E \u0422\u044C\u044E\u0440\u0438\u043D\u0433\u0430 \u0410\u0441\u0441\u043E\u0446\u0438\u0430\u0446\u0438\u0438 \u043A\u043E\u043C\u043F\u044C\u044E\u0442\u0435\u0440\u043D\u043E\u0439 \u0442\u0435\u0445\u043D\u0438\u043A\u0438 (ACM)."@ru .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/abstract>	"\u0643\u064A\u0646\u064A\u062B \u0627\u064A\u0641\u0631\u0633\u0648\u0646 (\u0628\u0627\u0644\u0625\u0646\u062C\u0644\u064A\u0632\u064A\u0629: Kenneth E. Iverson) \u0639\u0627\u0644\u0645 \u062D\u0627\u0633\u0648\u0628 \u0643\u0646\u062F\u064A \u0628\u0627\u0631\u0632 \u0641\u064A \u0645\u062C\u0627\u0644 \u0639\u0644\u0645 \u0627\u0644\u062D\u0627\u0633\u0648\u0628\u060C \u0641\u0627\u0632 \u0628\u062C\u0627\u0626\u0632\u0629 \u062A\u0648\u0631\u0646\u062C \u0641\u064A \u0639\u0627\u0645 1979 \u0639\u0646 \u0645\u0633\u0627\u0647\u0645\u0627\u062A\u0647 \u0641\u064A \u0627\u0644\u062A\u062F\u0648\u064A\u0646 \u0627\u0644\u0631\u064A\u0627\u0636\u064A."@ar .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://schema.org/Person> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/WikicatQueen\u0027sUniversityAlumni> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/abstract>	"\u30B1\u30CD\u30B9\u30FB\u30E6\u30FC\u30B8\u30F3\u30FB\u30A2\u30A4\u30D0\u30FC\u30BD\u30F3\uFF08Kenneth Eugene Iverson\u30011920\u5E7412\u670817\u65E5 - 2004\u5E7410\u670819\u65E5\uFF09\u306F\u3001\u30AB\u30CA\u30C0\u306E\u60C5\u5831\u5DE5\u5B66\u8005\u3001\u8A08\u7B97\u6A5F\u79D1\u5B66\u8005\u3002\u30D7\u30ED\u30B0\u30E9\u30DF\u30F3\u30B0\u8A00\u8A9EAPL\u3092\u958B\u767A\u3057\u305F\u3053\u3068\u3067\u77E5\u3089\u308C\u308B\u3002 1983\u5E74\u3001ACM\u306E Special Interest Group on APL (SIGAPL) \u306F\u30A2\u30A4\u30D0\u30FC\u30BD\u30F3\u306E\u6804\u8A89\u3092\u8B83\u3048\u3066APL\u306E\u767A\u5C55\u306B\u5BC4\u4E0E\u3057\u305F\u4EBA\u7269\u3092\u8868\u5F70\u3059\u308B\u300C\u30A2\u30A4\u30D0\u30FC\u30BD\u30F3\u8CDE\u300D\u3092\u5275\u8A2D\u3057\u305F\u3002"@ja .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/property/prizes>	"Harry H. Goode Memorial Award"@en .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/WikicatCanadianPeople> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/abstract>	"Kenneth Eugene Iverson (17 December 1920 \u2013 19 October 2004) was a Canadian computer scientist noted for the development of the APL programming language in 1962. He was honored with the Turing Award in 1979 for his contributions to mathematical notation and programming language theory. The Iverson Award for contributions to APL was named in his honor."@en .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/2000/01/rdf-schema#comment>	"\u30B1\u30CD\u30B9\u30FB\u30E6\u30FC\u30B8\u30F3\u30FB\u30A2\u30A4\u30D0\u30FC\u30BD\u30F3\uFF08Kenneth Eugene Iverson\u30011920\u5E7412\u670817\u65E5 - 2004\u5E7410\u670819\u65E5\uFF09\u306F\u3001\u30AB\u30CA\u30C0\u306E\u60C5\u5831\u5DE5\u5B66\u8005\u3001\u8A08\u7B97\u6A5F\u79D1\u5B66\u8005\u3002\u30D7\u30ED\u30B0\u30E9\u30DF\u30F3\u30B0\u8A00\u8A9EAPL\u3092\u958B\u767A\u3057\u305F\u3053\u3068\u3067\u77E5\u3089\u308C\u308B\u30021983\u5E74\u3001ACM\u306E Special Interest Group on APL (SIGAPL) \u306F\u30A2\u30A4\u30D0\u30FC\u30BD\u30F3\u306E\u6804\u8A89\u3092\u8B83\u3048\u3066APL\u306E\u767A\u5C55\u306B\u5BC4\u4E0E\u3057\u305F\u4EBA\u7269\u3092\u8868\u5F70\u3059\u308B\u300C\u30A2\u30A4\u30D0\u30FC\u30BD\u30F3\u8CDE\u300D\u3092\u5275\u8A2D\u3057\u305F\u3002"@ja .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/doctoralAdvisor>	<http://dbpedia.org/resource/Howard_H._Aiken> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/2000/01/rdf-schema#comment>	"Kenneth Iverson, matem\u00E1tico canadiense, naci\u00F3 el 17 de diciembre de 1920 en Alberta y falleci\u00F3 el 19 de octubre de 2004 en Toronto."@es .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/Expert109617867> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/property/deathPlace>	<http://dbpedia.org/resource/Ontario> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/wikiPageExternalLink>	<http://www.jsoftware.com/papers/APLEvol.htm> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/wikiPageExternalLink>	<http://www.jsoftware.com/papers/APLPersonalView.htm> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/Alumnus109786338> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/wikiPageExternalLink>	<http://www.jsoftware.com/papers/tot.htm> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/birthPlace>	<http://dbpedia.org/resource/Canada> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/LivingThing100004258> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/WikicatPeopleFromAlberta> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/property/deathPlace>	<http://dbpedia.org/resource/Canada> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/wikiPageExternalLink>	<http://www.jsoftware.com/papers/> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/wikiPageExternalLink>	<http://www.jsoftware.com/papers/APL.htm> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/CausalAgent100007347> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/wikiPageExternalLink>	<http://www.jsoftware.com/papers/APLDesign.htm> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/award>	<http://dbpedia.org/resource/IBM_Fellow> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/property/wordnet_type>	<http://www.w3.org/2006/03/wn/wn20/instances/synset-scientist-noun-1> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/Colleague109935990> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kenneth Iverson"@pt .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/WikicatHarvardUniversityAlumni> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/Scientist110560637> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/Associate109816771> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/Organism100004475> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/Scholar110557854> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/2000/01/rdf-schema#comment>	"Kenneth Eugene Iverson (Alberta, 17 de dezembro de 1920 \u2014 Toronto, 19 de outubro de 2004) foi um matem\u00E1tico canadense.Desenvolveu a linguagem de programa\u00E7\u00E3o APL. Em 1979 recebeu o Pr\u00EAmio Turing."@pt .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://umbel.org/umbel/rc/Scientist> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Queen\u0027s_University_alumni> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/2000/01/rdf-schema#comment>	"Kenneth Eugene \u201EKen\u201C Iverson (* 17. Dezember 1920 in Camrose, Alberta; \u2020 19. Oktober 2004 in Toronto, Ontario) war ein kanadischer Mathematiker und Informatiker, der die Programmiersprachen APL und J entwickelt hat."@de .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/deathPlace>	<http://dbpedia.org/resource/Canada> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/deathPlace>	<http://dbpedia.org/resource/Ontario> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/2000/01/rdf-schema#comment>	"Kenneth E. Iverson (ur. 17 grudnia 1920 w Camrose, Alberta, Kanada, zm. 19 pa\u017Adziernika 2004 w Toronto) - specjalista nauk komputerowych, tw\u00F3rca j\u0119zyka programowania APL, w 1979 r. nagrodzony Nagrod\u0105 Turinga za wk\u0142ad do teorii programowania i notacji matematycznych. Od jego imienia pochodzi nazwa Nagroda Iversona za wk\u0142ad w rozw\u00F3j j\u0119zyka APL."@pl .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/Peer109626238> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/award>	<http://dbpedia.org/resource/Turing_Award> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/abstract>	"Kenneth Eugene Iverson (17 d\u00E9cembre, 1920, Camrose (Alberta Canada), 19 octobre, 2004, Toronto (Ontario Canada)) fut un d\u00E9veloppeur informatique connu pour l'invention des langages APL & J. En 1979, il fut r\u00E9compens\u00E9 par le prix Turing pour ses travaux. Le langage APL, impl\u00E9ment\u00E9 en 1969, \u00E9tait totalement r\u00E9volutionnaire \u00E0 son \u00E9poque, et le reste encore par certains de ses aspects. Aujourd'hui, le prix Iverson r\u00E9compense les am\u00E9liorations apport\u00E9es \u00E0 APL."@fr .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/WikicatI.P.SharpAssociatesEmployees> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kenneth Iverson"@fr .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/wikiPageExternalLink>	<http://keiapl.org/> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kenneth Iverson"@es .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/property/birthPlace>	<http://dbpedia.org/resource/Canada> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.wikidata.org/entity/Q5> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/wikiPageExternalLink>	<http://archive.vector.org.uk/22/3> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/wikiPageID>	"259163"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Canadian_computer_scientists> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/Mathematician110301261> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/abstract>	"Kenneth Eugene Iverson (Camrose (Alberta, Canada), 17 december 1920 - Toronto, 19 oktober 2004) was een Canadees informaticus. Iverson was gespecialiseerd in formele talentheorie en deed veel onderzoek naar het gebruik van wiskundige notaties in programmeertalen en methoden. In 1979 ontving hij de Turing Award voor: Zijn bijdragen aan de wiskundige notatie en theorie der programmeertalen. Daarnaast werd hij in 1983 ge\u00EBerd met het instellen van de naar hem vernoemde Iverson Award voor bijdragen aan APL. Iverson studeerde wiskunde en natuurkunde aan de Queen's University te Kingston in Canada. In 1951 behaalde hij in deze onderwerpen zijn bachelor. Hij studeerde verder te Harvard, waar hij eveneens in 1951 zijn master in de wiskunde behaalde en vervolgens in 1954 promoveerde in de toegepaste wiskunde. Hij werd te Harvard aangesteld als postdoc en universitair docent. In die hoedanigheid ontwikkelde hij een wiskundige notatie voor het werken met arrays, die hij ook aan zijn studenten onderwees. In 1962 stapte hij over naar IBM, waar hij samen met Adin Falkoff werkte aan de ontwikkeling van APL -- de basis hiervoor was de door Iverson ontwikkelde notatie. In 1970 werd hij benoemd tot IBM Fellow. In later jaren ontwikkelde hij de programmeertaal J."@nl .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/property/doctoralAdvisor>	"Wassily Leontief and Howard Aiken"@en .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/property/name>	"Kenneth Eugene Iverson"@en .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/2000/01/rdf-schema#comment>	"Ha ottenuto il Turing Award nel 1979 per i suoi contributi alla notazione matematica e alla teoria dei linguaggi di programmazione."@it .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:People_from_Camrose,_Alberta> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/2002/07/owl#sameAs>	<http://rdf.freebase.com/ns/m.01m5mk> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Thing> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/property/birthDate>	"1920-12-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/wikiPageRevisionID>	"704182357"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/2000/01/rdf-schema#label>	"\u80AF\u5C3C\u65AF\u00B7\u827E\u4F5B\u68EE"@zh .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/2002/07/owl#sameAs>	<http://it.dbpedia.org/resource/Kenneth_Iverson> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:IBM_Research_computer_scientists> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/wikiPageExternalLink>	<http://archive.vector.org.uk/art10012020> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/field>	<http://dbpedia.org/resource/Computer_science> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/2002/07/owl#sameAs>	<http://cs.dbpedia.org/resource/Kenneth_Iverson> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/2000/01/rdf-schema#label>	"\u30B1\u30CD\u30B9\u30FB\u30A2\u30A4\u30D0\u30FC\u30BD\u30F3"@ja .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/2002/07/owl#sameAs>	<http://ja.dbpedia.org/resource/\u30B1\u30CD\u30B9\u30FB\u30A2\u30A4\u30D0\u30FC\u30BD\u30F3> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/property/field>	<http://dbpedia.org/resource/Computer_science> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/2002/07/owl#sameAs>	<http://es.dbpedia.org/resource/Kenneth_Iverson> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/2002/07/owl#sameAs>	<http://nl.dbpedia.org/resource/Kenneth_Eugene_Iverson> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/wikiPageExternalLink>	<http://web.archive.org/web/20060813132807/http:/www.research.ibm.com/journal/sj/032/falkoff.pdf> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/2002/07/owl#sameAs>	<http://wikidata.dbpedia.org/resource/Q92629> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/WikicatTuringAwardLaureates> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/WikicatProgrammingLanguageDesigners> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/2000/01/rdf-schema#label>	"\u0643\u064A\u0646\u064A\u062B \u0627\u064A\u0641\u0631\u0633\u0648\u0646"@ar .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/Specialist110631941> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/InteriorDesigner110210648> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/2002/07/owl#sameAs>	<http://www.wikidata.org/entity/Q92629> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/2002/07/owl#sameAs>	<http://pt.dbpedia.org/resource/Kenneth_Iverson> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://xmlns.com/foaf/0.1/name>	"Kenneth Eugene Iverson"@en .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/WikicatCanadianComputerScientists> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/award>	<http://dbpedia.org/resource/Harry_H._Goode_Memorial_Award> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/wikiPageExternalLink>	<http://lambda-the-ultimate.org/node/334#comment-2575> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/property/birthPlace>	<http://dbpedia.org/resource/Camrose,_Alberta> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/WikicatIBMFellows> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Turing_Award_laureates> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/wikiPageExternalLink>	<http://www.research.ibm.com/journal/sj/032/falkoff.pdf> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/ontology/Scientist> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:IBM_Fellows> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/2000/01/rdf-schema#comment>	"Kenneth Eugene Iverson (17 December 1920 \u2013 19 October 2004) was a Canadian computer scientist noted for the development of the APL programming language in 1962. He was honored with the Turing Award in 1979 for his contributions to mathematical notation and programming language theory. The Iverson Award for contributions to APL was named in his honor."@en .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/citizenship>	<http://dbpedia.org/resource/Canadians> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/ontology/Agent> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/wikiPageExternalLink>	<http://www.science.ca/scientists/scientistprofile.php?pID=178> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/Object100002684> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/Person100007846> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kenneth E. Iverson"@de .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/abstract>	"Ha ottenuto il Turing Award nel 1979 per i suoi contributi alla notazione matematica e alla teoria dei linguaggi di programmazione."@it .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/birthPlace>	<http://dbpedia.org/resource/Camrose,_Alberta> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.wikidata.org/entity/Q215627> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/YagoLegalActorGeo> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/award>	<http://dbpedia.org/resource/Computer_Pioneer_Award> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/YagoLegalActor> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/Intellectual109621545> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/2000/01/rdf-schema#comment>	"\u041A\u0435\u043D\u043D\u0435\u0442 \u042E\u0434\u0436\u0438\u043D \u0410\u0439\u0432\u0435\u0440\u0441\u043E\u043D (\u0430\u043D\u0433\u043B. Kenneth Eugene Iverson; 17 \u0434\u0435\u043A\u0430\u0431\u0440\u044F 1920 \u2014 19 \u043E\u043A\u0442\u044F\u0431\u0440\u044F 2004, \u041A\u0430\u043D\u0430\u0434\u0430) \u2014 \u043A\u0430\u043D\u0430\u0434\u0441\u043A\u0438\u0439 \u0443\u0447\u0451\u043D\u044B\u0439 \u0432 \u043E\u0431\u043B\u0430\u0441\u0442\u0438 \u0442\u0435\u043E\u0440\u0438\u0438 \u0432\u044B\u0447\u0438\u0441\u043B\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0445 \u0441\u0438\u0441\u0442\u0435\u043C, \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0441\u0442, \u0430\u0432\u0442\u043E\u0440 \u044F\u0437\u044B\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F APL, \u043F\u043E\u043B\u0443\u0447\u0438\u0432\u0448\u0438\u0439 \u0437\u0430 \u044D\u0442\u0443 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0443 \u0432 1979 \u0433\u043E\u0434\u0443 \u043F\u0440\u0435\u043C\u0438\u044E \u0422\u044C\u044E\u0440\u0438\u043D\u0433\u0430 \u0410\u0441\u0441\u043E\u0446\u0438\u0430\u0446\u0438\u0438 \u043A\u043E\u043C\u043F\u044C\u044E\u0442\u0435\u0440\u043D\u043E\u0439 \u0442\u0435\u0445\u043D\u0438\u043A\u0438 (ACM)."@ru .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/property/prizes>	"Turing Award"@en .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/abstract>	"Kenneth E. Iverson (ur. 17 grudnia 1920 w Camrose, Alberta, Kanada, zm. 19 pa\u017Adziernika 2004 w Toronto) - specjalista nauk komputerowych, tw\u00F3rca j\u0119zyka programowania APL, w 1979 r. nagrodzony Nagrod\u0105 Turinga za wk\u0142ad do teorii programowania i notacji matematycznych. Od jego imienia pochodzi nazwa Nagroda Iversona za wk\u0142ad w rozw\u00F3j j\u0119zyka APL. Absolwent matematyki i fizyki w Queen's University w Kingston (1951), doktor matematyki (1954), profesor Harvardu. W 1962 r. rozpocz\u0105\u0142 prac\u0119 w IBM, gdzie stworzy\u0142 Notacj\u0119 Iversona i opracowa\u0142 j\u0119zyk APL. W p\u00F3\u017Aniejszym okresie opracowa\u0142 te\u017C j\u0119zyk programowania J."@pl .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/2002/07/owl#sameAs>	<http://de.dbpedia.org/resource/Kenneth_E._Iverson> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:2004_deaths> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/almaMater>	<http://dbpedia.org/resource/Queen\u0027s_University> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/2000/01/rdf-schema#label>	"\u0410\u0439\u0432\u0435\u0440\u0441\u043E\u043D, \u041A\u0435\u043D\u043D\u0435\u0442"@ru .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/knownFor>	<http://dbpedia.org/resource/Programming_language> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/property/knownFor>	"Programming languages: APL, J"@en .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/wikiPageExternalLink>	<http://www.softwarepreservation.org/projects/apl/paper/197201_APL%20In%20Exposition_320-3010.pdf> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kenneth Eugene Iverson"@nl .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/wikiPageExternalLink>	<http://keiapl.org/archive/APL360_UsersMan_Aug1968.pdf> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Harvard_University_alumni> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/ComputerScientist109951070> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/ComputerUser109951274> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/property/almaMater>	<http://dbpedia.org/resource/Harvard_University> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/property/almaMater>	<http://dbpedia.org/resource/Queen\u0027s_University> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/property/deathDate>	"2004-10-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kenneth E. Iverson"@en .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:1920_births> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/deathDate>	"2004-10-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/almaMater>	<http://dbpedia.org/resource/Harvard_University> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/Wikicat20th-centuryMathematicians> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/property/citizenship>	<http://dbpedia.org/resource/Canadians> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://xmlns.com/foaf/0.1/Person> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://xmlns.com/foaf/0.1/isPrimaryTopicOf>	<http://en.wikipedia.org/wiki/Kenneth_E._Iverson> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/WikicatCanadianMathematicians> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/Worker109632518> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/property/prizes>	<http://dbpedia.org/resource/IBM_Fellow> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/WikicatAmericanMathematicians> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kenneth Iverson"@it .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/Employee110053808> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/2000/01/rdf-schema#comment>	"Kenneth Eugene Iverson (17 d\u00E9cembre, 1920, Camrose (Alberta Canada), 19 octobre, 2004, Toronto (Ontario Canada)) fut un d\u00E9veloppeur informatique connu pour l'invention des langages APL & J. En 1979, il fut r\u00E9compens\u00E9 par le prix Turing pour ses travaux.Le langage APL, impl\u00E9ment\u00E9 en 1969, \u00E9tait totalement r\u00E9volutionnaire \u00E0 son \u00E9poque, et le reste encore par certains de ses aspects.Aujourd'hui, le prix Iverson r\u00E9compense les am\u00E9liorations apport\u00E9es \u00E0 APL."@fr .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:I._P._Sharp_Associates_employees> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kenneth E. Iverson"@pl .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/birthDate>	"1920-12-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/Whole100003553> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Programming_language_designers> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/2000/01/rdf-schema#comment>	"\u0643\u064A\u0646\u064A\u062B \u0627\u064A\u0641\u0631\u0633\u0648\u0646 (\u0628\u0627\u0644\u0625\u0646\u062C\u0644\u064A\u0632\u064A\u0629: Kenneth E. Iverson) \u0639\u0627\u0644\u0645 \u062D\u0627\u0633\u0648\u0628 \u0643\u0646\u062F\u064A \u0628\u0627\u0631\u0632 \u0641\u064A \u0645\u062C\u0627\u0644 \u0639\u0644\u0645 \u0627\u0644\u062D\u0627\u0633\u0648\u0628\u060C \u0641\u0627\u0632 \u0628\u062C\u0627\u0626\u0632\u0629 \u062A\u0648\u0631\u0646\u062C \u0641\u064A \u0639\u0627\u0645 1979 \u0639\u0646 \u0645\u0633\u0627\u0647\u0645\u0627\u062A\u0647 \u0641\u064A \u0627\u0644\u062A\u062F\u0648\u064A\u0646 \u0627\u0644\u0631\u064A\u0627\u0636\u064A."@ar .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/property/deathPlace>	<http://dbpedia.org/resource/Toronto> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/WikicatPeopleFromCamrose,Alberta> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/2002/07/owl#sameAs>	<http://fr.dbpedia.org/resource/Kenneth_Iverson> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.wikidata.org/entity/Q901> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/2000/01/rdf-schema#comment>	"Kenneth Eugene Iverson (Camrose (Alberta, Canada), 17 december 1920 - Toronto, 19 oktober 2004) was een Canadees informaticus.Iverson was gespecialiseerd in formele talentheorie en deed veel onderzoek naar het gebruik van wiskundige notaties in programmeertalen en methoden. In 1979 ontving hij de Turing Award voor: Zijn bijdragen aan de wiskundige notatie en theorie der programmeertalen.Daarnaast werd hij in 1983 ge\u00EBerd met het instellen van de naar hem vernoemde Iverson Award voor bijdragen aan APL.In later jaren ontwikkelde hij de programmeertaal J."@nl .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/Recipient109627906> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/WikicatComputerScientists> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/knownFor>	<http://dbpedia.org/resource/J_(programming_language)> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/Laureate110249011> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/2002/07/owl#sameAs>	<http://pl.dbpedia.org/resource/Kenneth_E._Iverson> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/2002/07/owl#sameAs>	<http://ko.dbpedia.org/resource/\uCF00\uB124\uC2A4_\uC544\uC774\uBC84\uC2A8> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/Honoree110183757> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/abstract>	"Kenneth Eugene Iverson (Alberta, 17 de dezembro de 1920 \u2014 Toronto, 19 de outubro de 2004) foi um matem\u00E1tico canadense. Desenvolveu a linguagem de programa\u00E7\u00E3o APL. Em 1979 recebeu o Pr\u00EAmio Turing."@pt .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/property/prizes>	<http://dbpedia.org/resource/Computer_Pioneer_Award> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://dbpedia.org/ontology/doctoralAdvisor>	<http://dbpedia.org/resource/Wassily_Leontief> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/Acquirer109764201> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/class/yago/PhysicalEntity100001930> .
+<http://dbpedia.org/resource/Kenneth_E._Iverson>	<http://www.w3.org/ns/prov#wasDerivedFrom>	<http://en.wikipedia.org/wiki/Kenneth_E._Iverson?oldid=704182357> .
